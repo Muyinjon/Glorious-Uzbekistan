@@ -1,0 +1,34 @@
+﻿MILITARY_FORMATIONS = {
+    c:UZB ?= {
+        create_military_formation = {
+            name = "First Army"
+            type = army
+            hq_region = sr:region_central_asia
+            
+                combat_unit = {
+                    type = unit_type:combat_unit_type_line_infantry
+                    state_region = s:STATE_BUKHARA
+                    count = 12
+                }
+                combat_unit = {
+                    type = unit_type:combat_unit_type_cannon_artillery
+                    state_region = s:STATE_BUKHARA
+                    count = 5
+                }
+                combat_unit = {
+                    type = unit_type:combat_unit_type_hussars
+                    state_region = s:STATE_BUKHARA
+                    count = 5
+                }
+                save_scope_as = muyin_army
+        }
+
+        create_character = {
+			template = Muyinjon_uzb
+            save_scope_as = muyin_gen
+        }
+        scope:muyin_gen = {
+			transfer_to_formation = scope:muyin_army
+		}
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+BUILDINGS = {
+	s:STATE_KARAKALPAKSTAN = {
+		region_state:UZB = {
+			create_building = {
+				building = "building_barrack"
+			
+			
+			
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_KARAKALPAKSTAN"
+					}
+				}
+			}}}
+	}
+

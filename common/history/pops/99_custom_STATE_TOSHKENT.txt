@@ -1,0 +1,32 @@
+﻿POPS = {
+
+	s:STATE_TOSHKENT = {
+	
+		region_state:UZB = {
+			create_pop = {
+				culture = tajik
+				size = 3010
+			}
+			create_pop = {
+				culture = uighur
+				size = 2721
+			}
+			create_pop = {
+				culture = tajik
+				size = 17664
+			}
+			create_pop = {
+				culture = uzbek
+				size = 49718
+			}
+			create_pop = {
+				culture = uzbek
+				size = 133406
+			}
+		
+			create_pop = { culture = kazak size = 92695 }
+			create_pop = { culture = tajik size = 34543 }
+			create_pop = { culture = tajik size = 12265 }
+			create_pop = { culture = tajik size = 1876 }
+			create_pop = { culture = tajik size = 2102 }}
+	}}

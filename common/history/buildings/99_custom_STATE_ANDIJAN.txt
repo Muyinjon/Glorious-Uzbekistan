@@ -1,0 +1,52 @@
+BUILDINGS = {
+
+	s:STATE_ANDIJAN={
+		region_state:UZB={
+
+			create_building = {
+				building = "building_wheat_farm"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_ANDIJAN"
+					}
+				}
+			}
+		
+			create_building = {
+				building = "building_cotton_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_ANDIJAN"
+					}
+				}
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_silk_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_ANDIJAN"
+					}
+				}
+			}}
+	}
+}

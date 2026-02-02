@@ -1,0 +1,53 @@
+﻿POPS = {
+
+	s:STATE_SIRDAYO = {
+	
+		region_state:UZB = {
+			create_pop = {
+				culture = uzbek
+				size = 47580
+			}
+			create_pop = {
+				culture = uzbek
+				size = 73233
+			}
+			create_pop = {
+				culture = kazak
+				size = 3812
+			}
+			create_pop = {
+				culture = kazak
+				size = 1806
+			}
+			create_pop = {
+				culture = kazak
+				size = 32904
+			}
+			create_pop = {
+				culture = kazak
+				size = 6610
+			}
+		
+			create_pop = { culture = kazak size = 4576 }
+			create_pop = { culture = kazak size = 22858 }
+			create_pop = { culture = kazak size = 1242 }
+			create_pop = { culture = kazak size = 2625 }
+			create_pop = { culture = kazak size = 2243 }
+			create_pop = { culture = kazak size = 3333 }}
+	}
+	s:SIRDAYO = {
+		region_state:UZB = {
+
+		create_pop = {
+			culture = kazak
+			religion = sunni
+			size = 47815
+		}
+		create_pop = {
+			culture = uzbek
+			religion = sunni
+			size = 85006
+		}
+		}
+	}
+}

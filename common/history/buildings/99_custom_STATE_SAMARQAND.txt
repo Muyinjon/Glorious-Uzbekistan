@@ -1,0 +1,124 @@
+﻿
+BUILDINGS = {
+	s:STATE_SAMARQAND = {
+		region_state:UZB = {
+			create_building = {
+				building = "building_barrack"
+			
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+			
+			}
+			create_building = {
+				building = "building_wheat_farm"
+			
+			
+				level = 3
+			}
+		
+			create_building = {
+				building = "building_silk_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 2
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_university"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = { country = { country = "c:UZB" levels = 1 } }
+			}
+			create_building = {
+				building = "building_textile_mill"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 2
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = { country = { country = "c:UZB" levels = 1 } }
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_silk_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 2
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_trade_center"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}
+			create_building = {
+				building = "building_paper_mill"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_SAMARQAND"
+					}
+				}
+			}}
+	}
+}

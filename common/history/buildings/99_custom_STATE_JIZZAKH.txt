@@ -1,0 +1,60 @@
+﻿
+BUILDINGS = {
+	s:STATE_JIZZAKH = {
+		region_state:UZB = {
+			create_building = {
+				building = "building_livestock_ranch"
+			
+			
+				level = 2
+			}
+			create_building = {
+				building = "building_barrack"
+
+				add_ownership = {
+					country = { country = "c:UZB" levels = 1 }
+				}
+			
+			}
+		
+			create_building = {
+				building = "building_cotton_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 2
+						region = "STATE_JIZZAKH"
+					}
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 2
+						region = "STATE_JIZZAKH"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 4
+						region = "STATE_JIZZAKH"
+					}
+				}
+			}}
+	}
+}

@@ -1,0 +1,174 @@
+﻿POPS = {
+
+	s:STATE_KARAKALPAKSTAN = {
+	
+		region_state:UZB = {
+			create_pop = {
+				culture = uzbek
+				size = 64511
+			}
+			create_pop = {
+				culture = uzbek
+				size = 133
+			}
+			create_pop = {
+				culture = uzbek
+				size = 871
+			}
+			create_pop = {
+				culture = uzbek
+				size = 16009
+			}
+			create_pop = {
+				culture = uzbek
+				size = 1439
+			}
+			create_pop = {
+				culture = persian
+				size = 565
+			}
+			create_pop = {
+				culture = russian
+				size = 710
+			}
+			create_pop = {
+				culture = kazak
+				size = 4373
+			}
+			create_pop = {
+				culture = turkmen
+				size = 12941
+			}
+			create_pop = {
+				culture = uzbek
+				size = 30760
+			}
+		
+			create_pop = { culture = tajik size = 21364 }
+			create_pop = { culture = tajik size = 8999 }
+			create_pop = { culture = tajik size = 3041 }
+			create_pop = { culture = tajik size = 485 }
+			create_pop = { culture = tajik size = 386 }
+			create_pop = { culture = tajik size = 989 }
+			create_pop = { culture = tajik size = 11123 }
+			create_pop = { culture = tajik size = 602 }
+			create_pop = { culture = tajik size = 88 }
+			create_pop = { culture = tajik size = 611 }}
+	}
+	s:KARAKALPAKSTAN = {
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		
+		}
+	
+		{
+
+		
+		
+		
+		}
+	
+		region_state:UZB = {
+
+		create_pop = {
+			culture = uzbek
+			religion = sunni
+			size = 115200
+		}
+		create_pop = {
+			culture = tajik
+			religion = sunni
+			size = 23400
+		}
+		create_pop = {
+			culture = turkmen
+			religion = sunni
+			size = 39600
+		}
+		create_pop = {
+			culture = kazak
+			religion = sunni
+			size = 1800
+		}
+		}
+	}
+}

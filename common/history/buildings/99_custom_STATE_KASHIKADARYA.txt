@@ -1,0 +1,49 @@
+﻿
+BUILDINGS = {
+	s:STATE_KASHIKADARYA = {
+		region_state:UZB = {
+			create_building = {
+				building = "building_barrack"
+			
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 4
+						region = "STATE_KASHIKADARYA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 5
+						region = "STATE_KASHIKADARYA"
+					}
+				}
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					building = {
+						type = "building_manor_house"
+						country = "c:UZB"
+						levels = 1
+						region = "STATE_KASHIKADARYA"
+					}
+				}
+			}}
+	}
+}

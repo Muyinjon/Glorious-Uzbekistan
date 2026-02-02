@@ -1,0 +1,58 @@
+﻿POPS = {
+
+	s:STATE_NAVOI = {
+	
+		region_state:UZB = {
+			create_pop = {
+				culture = uzbek
+				size = 31632
+			}
+			create_pop = {
+				culture = turkmen
+				size = 1789
+			}
+			create_pop = {
+				culture = kazak
+				size = 3655
+			}
+			create_pop = {
+				culture = kazak
+				size = 3115
+			}
+			create_pop = {
+				culture = tajik
+				size = 839
+			}
+			create_pop = {
+				culture = persian
+				size = 4582
+			}
+			create_pop = {
+				culture = mashriqi
+				size = 140
+			}
+			create_pop = {
+				culture = uighur
+				size = 263
+			}
+			create_pop = {
+				culture = mashriqi
+			religion = sunni
+				size = 902
+			}
+			create_pop = {
+				culture = sephardic
+				size = 283
+			}
+		
+			create_pop = { culture = tajik size = 195 }
+			create_pop = { culture = tajik religion = sunni size = 625 }
+			create_pop = { culture = tajik size = 181 }
+			create_pop = { culture = tajik size = 96 }
+			create_pop = { culture = tajik size = 3182 }
+			create_pop = { culture = tajik size = 582 }
+			create_pop = { culture = tajik size = 2165 }
+			create_pop = { culture = tajik size = 2538 }
+			create_pop = { culture = tajik size = 1241 }
+			create_pop = { culture = kazak size = 21995 }}
+	}}

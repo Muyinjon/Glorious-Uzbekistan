@@ -1,0 +1,66 @@
+je_uzb_silicon_and_silk_road = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
+	group = je_group_objectives
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = { c:UZB ?= THIS }
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+
+	invalid_tooltip = {
+		text = je_uzb_silicon_and_silk_road_invalid_tooltip
+	}
+	progressing_tooltip = {
+		text = je_uzb_silicon_and_silk_road_progressing_tooltip
+	}
+	complete_tooltip = {
+		text = je_uzb_silicon_and_silk_road_complete_tooltip
+	}
+	reward_tooltip = {
+		text = je_uzb_silicon_and_silk_road_reward_tooltip
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = uzb_je_silicon_and_silk_road_tt_steel
+			any_scope_building = {
+				is_building_type = building_steel_mill
+				state_region = s:STATE_TOSHKENT
+				level >= 5
+			}
+		}
+		custom_tooltip = {
+			text = uzb_je_silicon_and_silk_road_tt_cotton
+			any_scope_building = {
+				is_building_type = building_cotton_plantation
+				state_region = s:STATE_ANDIJAN
+				level >= 10
+			}
+		}
+		custom_tooltip = {
+			text = uzb_je_silicon_and_silk_road_tt_gdp
+			gdp >= 10000000
+		}
+	}
+
+	is_progressing = {
+		OR = {
+			any_scope_building = {
+				is_building_type = building_steel_mill
+				state_region = s:STATE_TOSHKENT
+				is_under_construction = yes
+			}
+			any_scope_building = {
+				is_building_type = building_cotton_plantation
+				state_region = s:STATE_ANDIJAN
+				is_under_construction = yes
+			}
+			gdp >= 2500000
+		}
+	}
+
+	on_complete = {
+		add_modifier = { name = uzb_modifier_pride_of_the_east }
+	}
+}

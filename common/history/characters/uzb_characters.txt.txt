@@ -1,0 +1,8 @@
+COUNTRIES = {
+	c:UZB = {
+		# NOTE:
+		# Muyinjon Turobov is created and assigned to the Uzbek "First Army" via
+		# `common/history/military_formations/99_auto_army_uzb_first_army.txt`.
+		# Keeping this file without creating a duplicate general.
+	}
+}

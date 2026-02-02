@@ -1,0 +1,19 @@
+﻿
+bukharian_jews = {
+	color = rgb{ 181 146 224 }
+	religion = jewish
+	heritage = heritage_iranian
+	language = language_persian
+	traditions = { tradition_persianate }
+	graphics = arabic
+	obsessions = {}
+	ethnicities = {
+		10 = central_asian
+	}
+	male_common_first_names = {  }
+	female_common_first_names = {  }
+	noble_last_names = {  }
+	common_last_names = {  }
+	male_regal_first_names = {  }
+	female_regal_first_names = {  }
+}

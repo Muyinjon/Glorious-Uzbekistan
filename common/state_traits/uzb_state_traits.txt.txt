@@ -1,0 +1,38 @@
+# Silk Road Legacy - Good for Bukhara/Samarqand
+state_trait_silk_road_hub = {
+	icon = "gfx/interface/icons/state_status_icons/state_market_capital_icon.dds"
+	modifier = {
+		building_trade_center_throughput_add = 0.20
+		building_silk_plantation_throughput_add = .55
+		state_market_access_price_impact = -0.10
+		building_group_bg_service_throughput_add = .3
+		# Early-game infrastructure help (before railways):
+		# increases "infrastructure from population" so larger urbanizing states can support more buildings.
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 15
+	}
+}
+
+# The Fertile Fergana - For Andijan/Namangan
+state_trait_fergana_valley = {
+	icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.25
+		# Dense settlement and irrigation improves early logistics.
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 10
+		
+
+	}
+}
+
+# The Aral Sea (1836 version) - For Karakalpakstan
+state_trait_aral_sea = {
+	icon = "gfx/interface/icons/goods_icons/prestige_goods/generic_fish_prestige.dds"
+	modifier = {
+		building_group_bg_fishing_throughput_add = 0.30
+		# River/lake shipping routes support local logistics.
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 10
+	}
+}

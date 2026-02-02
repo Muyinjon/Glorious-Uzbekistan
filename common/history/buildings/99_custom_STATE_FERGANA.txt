@@ -1,0 +1,30 @@
+BUILDINGS = {
+	s:STATE_FERGANA={
+		region_state:UZB={
+			create_building = {
+				building = "building_barrack"
+				add_ownership = {
+					country = { country = "c:UZB" levels = 1 }
+				}
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					country = { country = "c:UZB" levels = 1 }
+				}
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					country = { country = "c:UZB" levels = 1 }
+				}
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					country = { country = "c:UZB" levels = 1 }
+				}
+		}
+	}
+}
+}

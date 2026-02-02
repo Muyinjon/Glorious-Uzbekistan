@@ -1,0 +1,102 @@
+﻿l_english:
+ bukharian_jews:0 "Bukharian Jews"
+ bukharian_jews_desc:0 "A small but influential Jewish community in Bukhara, known for its cultural achievements and religious practices."
+
+
+# Objectives
+ je_uzb_silicon_and_silk_road:0 "The Silk Road Reborn"
+ je_uzb_silicon_and_silk_road_desc:0 "For centuries, the cities of Uzbekistan stood at the crossroads of the world, where silk, cotton, and knowledge flowed between East and West. That era has faded, but its foundations remain. By rebuilding industry and modernizing agriculture, Uzbekistan can revive the Silk Road—not as a path of caravans, but as a network of factories, fields, and trade."
+ je_uzb_silicon_and_silk_road_incomplete:0 "Uzbekistan is still rebuilding its industrial base and modernizing its agriculture. The nation is not yet ready to revive the Silk Road."
+ je_uzb_silicon_and_silk_road_reason_1:0 "The nation must first rebuild its industrial base and modernize its agriculture."
+ je_uzb_silicon_and_silk_road_reason_2:0 "The nation must first rebuild its industrial base and modernize its agriculture."
+ je_uzb_silicon_and_silk_road_reason_3:0 "The nation must first rebuild its industrial base and modernize its agriculture."
+
+
+ je_uzb_silicon_and_silk_road_invalid:0 "Uzbekistan is not ready to revive the Silk Road. The nation must first rebuild its industrial base and modernize its agriculture."
+ je_uzb_silicon_and_silk_road_invalid_tooltip:0 "Uzbekistan is not ready to revive the Silk Road. The nation must first rebuild its industrial base and modernize its agriculture."
+
+ je_uzb_silicon_and_silk_road_progressing:0 "Uzbekistan is rebuilding its industrial base and modernizing its agriculture. The nation is not yet ready to revive the Silk Road."
+ je_uzb_silicon_and_silk_road_progressing_tooltip:0 "Uzbekistan is rebuilding its industrial base and modernizing its agriculture. The nation is not yet ready to revive the Silk Road."
+
+ je_uzb_silicon_and_silk_road_complete_tooltip:0 "Uzbekistan has successfully revived the spirit of the Silk Road. Modern industry now hums alongside fertile cotton fields, restoring the nation’s historic role as the economic heart of Central Asia."
+
+
+
+ je_uzb_silicon_and_silk_road_complete:0 "Uzbekistan has successfully revived the spirit of the Silk Road. Modern industry now hums alongside fertile cotton fields, restoring the nation’s historic role as the economic heart of Central Asia."
+
+
+
+ uzb_je_silicon_and_silk_road_tt_steel:0 "Build a Level 5 Steel Mill in Tashkent"
+ uzb_je_silicon_and_silk_road_tt_cotton:0 "Build Level 10 Cotton Plantations in Andijan"
+ uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a GDP of £10,000,000"
+
+ je_uzb_silicon_and_silk_road_reward:0 "Gain the modifier Pride of the East, increasing prestige, technology spread, and migration attraction."
+
+
+# Modifiers
+ uzb_modifier_pride_of_the_east:0 "Pride of the East"
+ uzb_modifier_pride_of_the_east_desc:0 "Uzbekistan stands once more as a beacon of culture, learning, and prosperity."
+
+ uzb_modifier_pride_of_the_east:0 "Pride of the East"
+ uzb_modifier_pride_of_the_east_desc:0 "Industrial self-sufficiency and rising prosperity have revived the nation's confidence. Scholars, engineers, and entrepreneurs rally to build a modern Uzbekistan."
+
+# State traits
+
+ state_trait_silk_road_hub:0 "Silk Road Hub"
+ state_trait_silk_road_hub_desc:0 "A historic crossroads of caravan trade and crafts. Strong commercial networks, specialized silk production, and improved local logistics help the state support more development."
+
+ state_trait_fergana_valley:0 "Fergana Valley"
+ state_trait_fergana_valley_desc:0 "A fertile valley with intensive farming traditions and dense settlement patterns. Irrigation and local transport networks support both agriculture and early development."
+
+ state_trait_aral_sea:0 "Aral Sea (1836)"
+ state_trait_aral_sea_desc:0 "In 1836 the Aral Sea still supported major fishing and river commerce. Water routes improve local logistics and help sustain larger fishing communities."
+
+
+# State regions
+# State regions
+
+ STATE_SAMARQAND:0 "Samarqand"
+ STATE_SAMARQAND_desc:0 "Samarqand is one of the oldest cities in Central Asia, famed for its role along the Silk Road. Long a center of scholarship, craftsmanship, and international trade, the city remains a symbol of Uzbek cultural and economic life."
+
+ STATE_NAVOI:0 "Navoi"
+ STATE_NAVOI_desc:0 "Navoi lies at the crossroads of Central Asia’s steppe and desert routes. Rich in natural resources, the region holds great potential for mining, industry, and strategic infrastructure development."
+
+ STATE_SURKHANDARYA:0 "Surkhandarya"
+ STATE_SURKHANDARYA_desc:0 "Bordering the mountainous south, Surkhandarya has long served as a gateway between Central Asia and the broader Islamic world. Its fertile valleys and trade routes support agriculture and regional commerce."
+
+ STATE_BUKHARA:0 "Bukhara"
+ STATE_BUKHARA_desc:0 "Bukhara is a historic center of religion, learning, and trade. For centuries, its madrasas and markets drew merchants and scholars from across Eurasia, making it one of the most influential cities of the Silk Road."
+
+ STATE_KASHKADARYA:0 "Kashkadarya"
+ STATE_KASHKADARYA_desc:0 "Kashkadarya’s plains and river valleys support extensive agriculture, while its position south of Samarqand links the region to both internal and international trade routes."
+
+ STATE_JIZZAKH:0 "Jizzakh"
+ STATE_JIZZAKH_desc:0 "Situated between steppe and mountain, Jizzakh has historically acted as a transit region for caravans and armies alike. Its geography makes it vital for overland connections across Uzbekistan."
+
+ STATE_TOSHKENT:0 "Toshkent"
+ STATE_TOSHKENT_desc:0 "Toshkent is Uzbekistan’s political and industrial heart. As the largest urban center in the region, it serves as a hub for administration, manufacturing, and modern infrastructure."
+
+ STATE_SIRDAYO:0 "Syr Darya"
+ STATE_SIRDAYO_desc:0 "Formed around the Syr Darya River, this region relies on irrigation and fertile soils to sustain agriculture. Control of water and transport along the river has long shaped local development."
+
+ STATE_ANDIJAN:0 "Andijan"
+ STATE_ANDIJAN_desc:0 "Located in the fertile Fergana Valley, Andijan is a center of intensive agriculture and population growth. Its cotton fields and workshops form the backbone of regional production."
+
+ STATE_NAMANGAN:0 "Namangan"
+ STATE_NAMANGAN_desc:0 "Namangan is a densely populated and agriculturally rich region of the Fergana Valley, known for its skilled labor, trade networks, and cultural traditions."
+
+ STATE_KARAKALPAKSTAN:0 "Karakalpakstan"
+ STATE_KARAKALPAKSTAN_desc:0 "Karakalpakstan is an autonomous region shaped by the Aral Sea and the Amu Darya. Historically reliant on fishing, river trade, and pastoral life, the region faces both opportunity and environmental challenge."
+
+ STATE_FERGANA:0 "Fergana"
+ STATE_FERGANA_desc:0 "The Fergana region lies at the heart of one of Central Asia’s most fertile valleys. Dense settlement, intensive farming, and vibrant trade have made it an enduring economic center."
+
+ STATE_KHIVA:0 "Khiva"
+ STATE_KHIVA_desc:0 "Khiva is a walled oasis city that once served as the capital of the Khivan Khanate. Its strategic position along desert trade routes made it a vital node in Central Asian commerce."
+
+
+
+
+
+
+

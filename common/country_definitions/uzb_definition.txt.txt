@@ -1,0 +1,12 @@
+﻿UZB = {
+	color = { 129 193 241 }
+
+	country_type = recognized
+
+	tier = grand_principality
+
+	cultures = { uzbek tajik }
+	capital = STATE_BUKHARA
+
+	religion = sunni
+}

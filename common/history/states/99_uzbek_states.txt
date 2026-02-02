@@ -1,0 +1,130 @@
+﻿STATES = {
+	s:STATE_SAMARQAND = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x417f81" "x8b8972" "x8de506" "xd056dc" "xd87ebf" "xed1489" "xf5ef8a" }
+	}
+		add_homeland = cu:uzbek
+		add_homeland = cu:tajik
+	}
+
+	s:STATE_NAVOI = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x086b0d" "x100231" "x14a7be" "x18805c" "x33a3be" "x44f40b" "x52c5b4" "x5deb84" "x6b31ff" "x6bd3a0" "x72d3a8" "x73d87a" "x7a0cca" "x7a943a" "x7bf1c1" "x82e6c0" "x8d638e" "x95c1ea" "x97161c" "x9a8732" "x9f6258" "xa69653" "xaf6ae5" "xb24806" "xb38748" "xc87f8a" "xcea4c1" "xd38a78" "xdad39b" "xdfe90c" "xfd83a1" }
+	}
+	
+		add_homeland = cu:uzbek
+		add_homeland = cu:kazak
+	}
+
+	s:STATE_SUKHANDARYA = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x17227f" "x20b021" "xc07a80" "xe72886" }
+	}
+		add_homeland = cu:uzbek
+		add_homeland = cu:tajik
+	}
+
+	s:STATE_BUKHARA = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x078459" "x11beb1" "x1f4f98" "x367c49" "x3abb84" "x71f3e8" "x865aab" "x8a56dc" "xa69fff" "xb0c419" "xb1e3fb" "xc3d59a" "xd5bc6f" "xdc6a33" }
+	}
+	
+		add_homeland = cu:uzbek
+		add_homeland = cu:tajik
+	}
+
+	s:STATE_KASHIKADARYA = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x156b96" "xc89c46" "xf9bc1a" "xfd2fe1" }
+	}
+		add_homeland = cu:uzbek
+	}
+
+	s:STATE_JIZZAKH = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x7a884b" "x973b9f" "xa1df6d" }
+	}
+		add_homeland = cu:uzbek
+	}
+
+	s:STATE_TOSHKENT = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x3d854f" "x4b7066" "xb24b12" "xc0d040" }
+	}
+		add_homeland = cu:uzbek
+	}
+
+	s:STATE_SIRDAYO = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "xa02922" "xa3fa94" "xc359f7" }
+	}
+		add_homeland = cu:uzbek
+		add_homeland = cu:kazak
+	}
+
+	s:STATE_ANDIJAN = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x6ea842" "xad3425" "xbb21a5" }
+	}
+	
+		add_homeland = cu:uzbek
+	}
+
+	s:STATE_NAMAGAN = {
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x542efd" "x7625f5" "x8828fb" "xd767ad" "xdbd8be" "xfb192c" }
+	}
+		add_homeland = cu:uzbek
+	}
+
+	s:STATE_KARAKALPAKSTAN = {
+	
+	
+	create_state = {
+		country = c:UZB
+		owned_provinces = { "x03630a" "x0a3f4d" "x1c2fb8" "x2c7b0c" "x2cdb86" "x5743dd" "x665341" "x891e67" "x956de6" "x9b6910" "xaca7fd" "xb22914" "xc19656" "xc6fc10" "xdb89a8" "xea2f67" "xee0054" "xf1c7f1" "xff1b6d"  "x18c7c6" "x28c6d1" "x4905d7" "x52a7bd" "x57585a" "x6e3fff" "x735e95" "x85804e" "x9c7154" "x9cf8bd" "x9fb105" "xa63dc7" "xf99813" "x415040" "x5e72d3" "x60d60f" "x7aaa53" "x994df0"}
+	}
+	
+		add_homeland = cu:uzbek
+	}
+
+	s:STATE_FERGANA = {
+	    create_state = {
+	    	country = c:UZB
+	    	owned_provinces = { "x1c545c" "x5a2c97" "xc78f24" }
+	    }
+	    add_homeland = cu:kirgiz
+	    add_homeland = cu:uzbek
+	    add_homeland = cu:tajik
+	}
+	
+	s:STATE_KHIVA = {
+		create_state = {
+			country = c:UZB
+			owned_provinces = { "x5bb27e" "x8ae0dc" "xa487ba" "xf2786a" }
+		}
+
+		add_homeland = cu:uzbek
+		add_homeland = cu:kazak
+	}
+}
