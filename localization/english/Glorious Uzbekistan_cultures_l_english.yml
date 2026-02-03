@@ -8,15 +8,76 @@
 
  je_uzb_silicon_and_silk_road_lobby:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and [concept_trade]. Build [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')], establish [Concept('concept_building', 'Textile Mills')] in our historic trading cities, and restore [Concept('concept_building', 'Trade Centers')] to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy."
 
- je_uzb_silicon_and_silk_road_reason:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and [concept_trade]. Build [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')], establish [Concept('concept_building', 'Textile Mills')] in our historic trading cities, and restore [Concept('concept_building', 'Trade Centers')] to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy." 
+ je_uzb_silicon_and_silk_road_reason:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and [concept_trade]. Build [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')], establish [Concept('concept_building', 'Textile Mills')] in our historic trading cities, and restore [Concept('concept_building', 'Trade Centers')] to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy."
+
+ je_uzb_ulughbek_scholars:0 "Ulughbek's Scholars"
+ je_uzb_ulughbek_scholars_desc:0 "Restore the intellectual legacy of Ulughbek by expanding [Concept('concept_building', 'Universities')] and raising [concept_literacy]. A modern Uzbekistan must lead with knowledge."
+ je_uzb_ulughbek_scholars_lobby:0 "Restore the intellectual legacy of Ulughbek by expanding [Concept('concept_building', 'Universities')] and raising [concept_literacy]."
+ je_uzb_ulughbek_scholars_reason:0 "Restore the intellectual legacy of Ulughbek by expanding [Concept('concept_building', 'Universities')] and raising [concept_literacy]."
+
+ je_uzb_amir_temur_army:0 "Forge the Amir Temur Army"
+ je_uzb_amir_temur_army_desc:0 "Rebuild the military machine of Amir Temur. Expand [Concept('concept_building', 'Barracks')], secure modern arms production, and establish artillery foundries to support a professional army."
+ je_uzb_amir_temur_army_lobby:0 "Rebuild the military machine of Amir Temur through [Concept('concept_building', 'Barracks')] and modern arms production."
+ je_uzb_amir_temur_army_reason:0 "Rebuild the military machine of Amir Temur through [Concept('concept_building', 'Barracks')] and modern arms production."
+
+ je_uzb_amir_temur_babur_claims:0 "Claims of Amir Temur and Babur"
+ je_uzb_amir_temur_babur_claims_desc:0 "Unite the lands once ruled by Amir Temur and Babur across Central Asia, Persia, and India. Restoring these historic frontiers will reforge the Timurid legacy."
+ je_uzb_amir_temur_babur_claims_lobby:0 "Unite the lands once ruled by Amir Temur and Babur across Central Asia, Persia, and India."
+ je_uzb_amir_temur_babur_claims_reason:0 "Unite the lands once ruled by Amir Temur and Babur across Central Asia, Persia, and India."
+
+ je_uzb_golden_era:0 "Timurid Golden Era"
+ je_uzb_golden_era_desc:0 "Prosperity, stability, and high [concept_literacy] mark a true golden era. Reduce [concept_radical] influence and build a powerful economy worthy of the Timurid name."
+ je_uzb_golden_era_lobby:0 "Prosperity, stability, and high [concept_literacy] mark a true golden era."
+ je_uzb_golden_era_reason:0 "Prosperity, stability, and high [concept_literacy] mark a true golden era."
+
+ je_uzb_colonial_frontiers:0 "Frontiers of the Steppe"
+ je_uzb_colonial_frontiers_desc:0 "Pursue colonial expansion to secure new markets and resources. Strengthen [concept_colony] administration and expand colonial reach beyond the traditional Uzbek heartland."
+ je_uzb_colonial_frontiers_lobby:0 "Pursue colonial expansion to secure new markets and resources."
+ je_uzb_colonial_frontiers_reason:0 "Pursue colonial expansion to secure new markets and resources."
+
+ uzb_character.1.t:0 "A Volunteer for the Army"
+ uzb_character.1.d:0 "Muyinjon Turobov steps forward and offers his service as a general. He claims to be ready to reorganize and lead our forces."
+ uzb_character.1.a:0 "Appoint him as a general."
+ 
+ uzb_journal_rewards.1.t:0 "Reward Granted"
+ uzb_journal_rewards.1.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.1.a:0 "Continue"
+ uzb_journal_rewards.2.t:0 "Reward Granted"
+ uzb_journal_rewards.2.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.2.a:0 "Continue"
+ uzb_journal_rewards.3.t:0 "Reward Granted"
+ uzb_journal_rewards.3.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.3.a:0 "Continue"
+ uzb_journal_rewards.4.t:0 "Reward Granted"
+ uzb_journal_rewards.4.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.4.a:0 "Continue"
+ uzb_journal_rewards.5.t:0 "Reward Granted"
+ uzb_journal_rewards.5.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.5.a:0 "Continue"
+ uzb_journal_rewards.3.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.3.a:0 "Continue"
+ uzb_journal_rewards.4.t:0 "Reward Granted"
+ uzb_journal_rewards.4.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.4.a:0 "Continue"
+ uzb_journal_rewards.5.t:0 "Reward Granted"
+ uzb_journal_rewards.5.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.5.a:0 "Continue"
 
 
-
- uzb_modifier_pride_of_the_east:0 "Pride of the East"
- uzb_modifier_pride_of_the_east_desc:0 "Uzbekistan stands once more as a beacon of culture, learning, and prosperity."
 
  uzb_modifier_pride_of_the_east:0 "Pride of the East"
  uzb_modifier_pride_of_the_east_desc:0 "Industrial self-sufficiency and rising prosperity have revived the nation's confidence. Scholars, engineers, and entrepreneurs rally to build a modern Uzbekistan."
+
+ uzb_modifier_ulughbek_scholars:0 "Ulughbek's Scholars"
+ uzb_modifier_ulughbek_scholars_desc:0 "A renewed culture of learning and astronomy strengthens Uzbekistan's intellectual foundations."
+ uzb_modifier_temur_army:0 "Amir Temur Army"
+ uzb_modifier_temur_army_desc:0 "Military reforms restore discipline, prestige, and strategic confidence."
+ uzb_modifier_timurid_claims:0 "Timurid Claims"
+ uzb_modifier_timurid_claims_desc:0 "The reconquest of historic lands elevates Uzbekistan's standing and economic ambition."
+ uzb_modifier_golden_era:0 "Timurid Golden Era"
+ uzb_modifier_golden_era_desc:0 "Prosperity, stability, and cultural vitality mark a new golden age."
+ uzb_modifier_colonial_frontiers:0 "Colonial Frontiers"
+ uzb_modifier_colonial_frontiers_desc:0 "Organized colonial policy brings new markets and population growth."
 
 
  state_trait_silk_road_hub:0 "Silk Road Hub"
@@ -44,7 +105,7 @@
  STATE_BUKHARA_desc:0 "Bukhara is a historic center of religion, learning, and trade. For centuries, its madrasas and markets drew merchants and scholars from across Eurasia, making it one of the most influential cities of the Silk Road."
 
  STATE_KASHIKADARYA:0 "Kashkadarya"
- STATE_STATE_KASHIKADARYA_desc:0 "Kashkadarya’s plains and river valleys support extensive agriculture, while its position south of Samarqand links the region to both internal and international trade routes."
+ STATE_KASHIKADARYA_desc:0 "Kashkadarya’s plains and river valleys support extensive agriculture, while its position south of Samarqand links the region to both internal and international trade routes."
 
  STATE_JIZZAKH:0 "Jizzakh"
  STATE_JIZZAKH_desc:0 "Situated between steppe and mountain, Jizzakh has historically acted as a transit region for caravans and armies alike. Its geography makes it vital for overland connections across Uzbekistan."
@@ -59,7 +120,6 @@
  STATE_ANDIJAN_desc:0 "Located in the fertile Fergana Valley, Andijan is a center of intensive agriculture and population growth. Its cotton fields and workshops form the backbone of regional production."
 
  STATE_NAMANGAN:0 "Namangan"
- STATE_NAMANGAN_tt:0 "Namangan"
  STATE_NAMANGAN_desc:0 "Namangan is a densely populated and agriculturally rich region of the Fergana Valley, known for its skilled labor, trade networks, and cultural traditions."
 
  STATE_KARAKALPAKSTAN:0 "Karakalpakstan"
@@ -91,6 +151,43 @@
  uzb_je_silicon_and_silk_road_tt_textile:0 "Build at least 10 levels of [Concept('concept_building', 'Textile Mills')] in [Concept('concept_state', 'Samarqand')] or [Concept('concept_state', 'Bukhara')]"
  uzb_je_silicon_and_silk_road_tt_trade:0 "Build at least 5 levels of [Concept('concept_building', 'Trade Centers')] in [Concept('concept_state', 'Samarqand')]"
  uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a [concept_gdp] of £10.0M"
+ je_uzb_silicon_and_silk_road_progress:0 "GDP progress: [JournalEntry.CalcCurrentGoalValue|*]/[JournalEntry.GetGoalAddValue|*]"
+
+ uzb_je_ulughbek_tt_university_tashkent:0 "Have at least 1 level of [Concept('concept_building', 'University')] in [Concept('concept_state', 'Toshkent')]"
+ uzb_je_ulughbek_tt_university_samarqand:0 "Have at least 1 level of [Concept('concept_building', 'University')] in [Concept('concept_state', 'Samarqand')]"
+ uzb_je_ulughbek_tt_literacy:0 "Reach 50% [concept_literacy]"
+ 
+  uzb_je_ulughbek_reward_tt:0 "Gain the Ulughbek's Scholars modifier in $UZB$"
+
+
+
+ uzb_je_temur_army_tt_barracks_tashkent:0 "Build at least 15 levels of [Concept('concept_building', 'Barracks')] in [Concept('concept_state', 'Toshkent')]"
+ uzb_je_temur_army_tt_barracks_samarqand:0 "Build at least 10 levels of [Concept('concept_building', 'Barracks')] in [Concept('concept_state', 'Samarqand')]"
+ uzb_je_temur_army_tt_barracks_bukhara:0 "Build at least 10 levels of [Concept('concept_building', 'Barracks')] in [Concept('concept_state', 'Bukhara')]"
+ uzb_je_temur_army_tt_arms:0 "Build at least 5 levels of [Concept('concept_building', 'Arms Industries')]"
+ uzb_je_temur_army_tt_artillery:0 "Build at least 3 levels of [Concept('concept_building', 'Artillery Foundries')]"
+ uzb_je_temur_army_claims_reward_tt:0 "Gain claims on the historic lands of Amir Temur and Babur across Central Asia, Persia, and India."
+ uzb_je_temur_army_reward_tt:0 "Gain the Amir Temur Army modifier."
+
+ uzb_je_temur_babur_tt_central_asia:0 "Control the core Uzbek regions of Central Asia"
+ uzb_je_temur_babur_tt_persia:0 "Control the historic Timurid lands in Persia"
+ uzb_je_temur_babur_tt_india:0 "Control the historic Mughal lands in India"
+ uzb_je_temur_babur_reward_tt:0 "Gain the Timurid Claims modifier."
+
+ uzb_je_golden_era_tt_literacy:0 "Reach 70% [concept_literacy]"
+ uzb_je_golden_era_tt_radicals:0 "Keep [concept_radical] below 10%"
+ uzb_je_golden_era_tt_gdp:0 "Reach a [concept_gdp] of £30.0M"
+ uzb_je_golden_era_reward_tt:0 "Gain the Timurid Golden Era modifier."
+ je_uzb_ulughbek_scholars_progress:0 "Literacy progress: [JournalEntry.CalcCurrentGoalValue|1]/[JournalEntry.GetGoalAddValue|1]%"
+ je_uzb_golden_era_progress:0 "GDP progress: [JournalEntry.CalcCurrentGoalValue|*]/[JournalEntry.GetGoalAddValue|*]"
+
+ uzb_je_ulughbek_progress_desc:0 "Literacy progress: [JournalEntry.GetGoalProgressPercent|%]"
+ uzb_je_golden_era_progress_desc:0 "GDP progress: [JournalEntry.GetGoalProgressPercent|%]"
+
+ uzb_je_colonial_tt_law:0 "Pass a colonial affairs law"
+ uzb_je_colonial_tt_institution:0 "Raise [Concept('concept_institution', 'Colonial Affairs')] to level 3"
+ uzb_je_colonial_tt_colony:0 "Have at least one [concept_colony] subject"
+ uzb_je_colonial_reward_tt:0 "Gain the Colonial Frontiers modifier."
  
  # Completion text
  je_uzb_silicon_and_silk_road_complete:0 "Uzbekistan has revitalized the Silk Road! Our [Concept('concept_building', 'Silk Plantations')], [Concept('concept_building', 'Textile Mills')], and [Concept('concept_building', 'Trade Centers')] have restored our position as the commercial heart of Central Asia!"

@@ -6,4 +6,32 @@ uzb_modifier_pride_of_the_east = {
 	country_trade_goods_value_mult = 0.10
 }
 
+uzb_modifier_ulughbek_scholars = {
+	country_prestige_mult = 0.05
+	country_tech_spread_mult = 0.10
+	country_tech_research_speed_mult = 0.10
+}
+
+uzb_modifier_temur_army = {
+	country_prestige_mult = 0.10
+	country_tech_spread_mult = 0.05
+}
+
+uzb_modifier_timurid_claims = {
+	country_prestige_mult = 0.15
+	country_trade_goods_value_mult = 0.05
+}
+
+uzb_modifier_golden_era = {
+	country_prestige_mult = 0.25
+	country_mass_migration_attraction_mult = 0.50
+	country_trade_goods_value_mult = 0.10
+}
+
+uzb_modifier_colonial_frontiers = {
+	country_prestige_mult = 0.08
+	country_mass_migration_attraction_mult = 0.20
+	country_trade_goods_value_mult = 0.08
+}
+
 

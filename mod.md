@@ -45,3 +45,9 @@ It’s for players who want an Uzbekistan-focused start and a more detailed Uzbe
 - Finish and polish **Bukharian Jews** culture (names, pops integration, and/or additional flavor).
 - More Uzbek flavor content (events, journal entries, characters) if desired.
 
+### Planned journal entries
+- **Ulughbek's Scholars**: Education and innovation focus (universities, literacy, innovation).
+- **Forge the Amir Temur Army**: Military modernization and arms industry.
+- **Claims of Amir Temur and Babur**: Reclaim historic Timurid lands in Central Asia, Persia, and India.
+- **Timurid Golden Era**: High literacy, low turmoil, strong economy, and higher standard of living.
+- **Frontiers of the Steppe**: Colonial expansion with Colonial Affairs investment and colonial subjects.

@@ -25,6 +25,8 @@
 
         create_character = {
 			template = Muyinjon_uzb
+			first_name = Muyinjon
+			last_name = Turobov
             save_scope_as = muyin_gen
         }
         scope:muyin_gen = {

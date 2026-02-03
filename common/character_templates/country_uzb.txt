@@ -3,10 +3,12 @@ Muyinjon_uzb = {
 	last_name = Turobov
 	culture = cu:tajik
 	female = no
-	dna = dna_victor_frankenstein
-	interest_group = ig_intelligentsia # Hails from a long line of Genevese syndics, so could also be PB
-	ideology = ideology_positivist
-	age = 19 # Rough age when he created Frankenstein
+	historical = yes
+	is_general = yes
+	commander_rank = default
+	interest_group = ig:ig_intelligentsia
+	ideology = ideology:ideology_radical
+	birth_date = 1815.1.1
 	religion = rel:sunni
 	traits = {
 			direct

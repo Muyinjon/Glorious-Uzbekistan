@@ -1,0 +1,23 @@
+country_event = {
+	id = uzb_character.1
+	title = uzb_character.1.t
+	desc = uzb_character.1.d
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_variable = uzb_muyin_general_created }
+	}
+
+	option = {
+		name = uzb_character.1.a
+		create_character = {
+			template = Muyinjon_uzb
+			first_name = Muyinjon
+			last_name = Turobov
+			save_scope_as = muyin_gen
+		}
+		set_variable = uzb_muyin_general_created
+	}
+}
