@@ -110,11 +110,6 @@
  STATE_KARAKALPAKSTAN:0 "Karakalpakstan"
  STATE_KARAKALPAKSTAN_desc:0 "Karakalpakstan is an autonomous region shaped by the Aral Sea and the Amu Darya. Historically reliant on fishing, river trade, and pastoral life, the region faces both opportunity and environmental challenge."
 
- STATE_FERGANA:0 "Fergana"
- STATE_FERGANA_desc:0 "The Fergana region lies at the heart of one of Central Asia's most fertile valleys. Dense settlement, intensive farming, and vibrant trade have made it an enduring economic center."
-
- STATE_KHIVA:0 "Khorezm"
- STATE_KHIVA_desc:0 "Khorezm is a historic oasis region on the lower Amu Darya. Long a center of trade and learning, its fortified cities and desert routes made it a vital node in Central Asian commerce."
 
  # Silk Road Events
  uzb_silk_road_silk_progress_title:0 "Silk Production Expands"
