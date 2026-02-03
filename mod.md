@@ -25,7 +25,7 @@ It’s for players who want an Uzbekistan-focused start and a more detailed Uzbe
   - Namangan
   - Karakalpakstan (Autonomous region)
   - Fergana
-  - (Also present in state history: Khiva)
+- (Also present in state history: Khorezm)
 
 ### Custom state traits
 - **Silk Road Hub**: Intended for Samarqand/Bukhara to boost trade and silk.

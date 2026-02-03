@@ -1,6 +1,6 @@
 ﻿POPS = {
 
-	s:STATE_SUKHANDARYA = {
+	s:STATE_SURKHANDARYA  = {
 	
 		region_state:UZB = {
 			create_pop = {
@@ -36,39 +36,5 @@
 			create_pop = { culture = uzbek size = 3886 }
 			create_pop = { culture = tajik size = 71435 }}
 	}
-	s:SUKHANDARYA = {
-		region_state:UZB = {
 
-		create_pop = {
-			culture = uzbek
-			religion = sunni
-			size = 127900
-		}
-		create_pop = {
-			culture = tajik
-			religion = sunni
-			size = 80251
-		}
-		create_pop = {
-			culture = turkmen
-			religion = sunni
-			size = 27586
-		}
-		create_pop = {
-			culture = kazak
-			religion = sunni
-			size = 12539
-		}
-		create_pop = {
-			culture = mashriqi
-			religion = sunni
-			size = 2507
-		}
-		create_pop = {
-			culture = tajik
-			religion = sunni
-			size = 2507
-		}
-		}
-	}
 }

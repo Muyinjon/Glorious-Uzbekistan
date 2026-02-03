@@ -5,16 +5,9 @@
 		activate_law = law_type:law_debt_slavery
 		set_tax_level = medium
 	
-        create_character = {
-            first_name = "Muyin"
-            last_name = "Turobov"
-            birth_date = 1800.1.1
-            ruler = yes
-            interest_group = ig_intelligentsia
-            ideology = ideology_radical
-        }
 
 		# Journal Entry: "The Silicon and Silk Road"
 		add_journal_entry = { type = je_uzb_silicon_and_silk_road }
 	}
+	
 }

@@ -1,56 +1,7 @@
 ﻿POPS = {
 
-	s:STATE_NAMAGAN = {
-	
-		region_state:UZB = {
-			create_pop = {
-				culture = tajik
-				size = 4309
-			}
-			create_pop = {
-				culture = uighur
-				size = 3888
-			}
-			create_pop = {
-				culture = sephardic
-				size = 1270
-			}
-			create_pop = {
-				culture = uzbek
-				size = 25260
-			}
-			create_pop = {
-				culture = kirgiz
-				size = 71105
-			}
-			create_pop = {
-				culture = uzbek
-				size = 190739
-			}
-			create_pop = {
-				culture = uzbek
-				size = 38152
-			}
-			create_pop = {
-				culture = kirgiz
-				size = 14226
-			}
-			create_pop = {
-				culture = tajik
-				size = 5097
-			}
-		
-			create_pop = { culture = tajik size = 3533 }
-			create_pop = { culture = tajik size = 9864 }
-			create_pop = { culture = tajik size = 26494 }
-			create_pop = { culture = uzbek size = 132537 }
-			create_pop = { culture = tajik size = 49403 }
-			create_pop = { culture = uzbek size = 17543 }
-			create_pop = { culture = tajik size = 876 }
-			create_pop = { culture = tajik size = 2693 }
-			create_pop = { culture = tajik size = 3011 }}
-	}
-	s:NAMAGAN = {
+
+	s:STATE_NAMANGAN = {
 		region_state:UZB = {
 
 		create_pop = {

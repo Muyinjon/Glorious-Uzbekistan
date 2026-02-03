@@ -1,7 +1,7 @@
 BUILDINGS = {
 
 
-	s:STATE_NAMAGAN={
+	s:STATE_NAMANGAN={
 		region_state:UZB={
 
 			create_building = {
@@ -9,11 +9,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 5
-						region = "STATE_NAMAGAN"
 					}
 				}
 			}
@@ -23,11 +21,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 5
-						region = "STATE_NAMAGAN"
 					}
 				}
 			}
@@ -36,11 +32,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 2
-						region = "STATE_NAMAGAN"
 					}
 				}
 			}
@@ -49,11 +43,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 7
-						region = "STATE_NAMAGAN"
 					}
 				}
 			}}

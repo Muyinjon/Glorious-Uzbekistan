@@ -488,29 +488,29 @@
 		region_state:UZB = {
 			create_pop = {
 				culture = uzbek
-				size = 20729
+				size = 120729
 			}
 			create_pop = {
 				culture = turkmen
-				size = 8728
+				size = 18728
 			}
 			create_pop = {
 				culture = kazak
-				size = 2954
+				size = 12954
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = russian
-				size = 485
+				size = 1485
 			}
 			create_pop = {
 				culture = persian
-				size = 390
+				size = 1390
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = turkmen
-				size = 977
+				size = 1977
 			}
 			create_pop = {
 				pop_type = slaves
@@ -518,7 +518,7 @@
 				size = 10806
 			}
 		
-			create_pop = { culture = tajik size = 7505 }
+			create_pop = { culture = tajik size = 37505 }
 			create_pop = { culture = tajik size = 670 }
 			create_pop = { culture = tajik size = 268 }
 			create_pop = { culture = tajik size = 329 }
@@ -545,6 +545,36 @@
 				pop_type = slaves
 				culture = persian
 				size = 385
+			}
+		}
+	}
+	s:STATE_FERGANA = {
+		region_state:UZB = {
+			create_pop = {
+				culture = uzbek
+				size = 101361
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 37785
+			}
+			create_pop = {
+				culture = tajik
+				size = 43425
+			}
+			create_pop = {
+				culture = bukharian_jews
+				size = 677
+			}
+			create_pop = {
+				culture = uighur
+				pop_type = slaves
+				size = 2067
+			}
+			create_pop = {
+				culture = tajik
+				pop_type = slaves
+				size = 2292
 			}
 		}
 	}
@@ -751,36 +781,7 @@
 			}
 		}
 	}
-	s:STATE_FERGANA = {
-		region_state:UZB = {
-			create_pop = {
-				culture = uzbek
-				size = 101361
-			}
-			create_pop = {
-				culture = kirgiz
-				size = 37785
-			}
-			create_pop = {
-				culture = tajik
-				size = 13425
-			}
-			create_pop = {
-				culture = sephardic
-				size = 677
-			}
-			create_pop = {
-				culture = uighur
-				pop_type = slaves
-				size = 2067
-			}
-			create_pop = {
-				culture = tajik
-				pop_type = slaves
-				size = 2292
-			}
-		}
-	}
+
 	s:STATE_TURKMENIA = {
 		region_state:TRM = {
 			create_pop = {

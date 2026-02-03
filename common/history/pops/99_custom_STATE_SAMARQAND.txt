@@ -1,157 +1,19 @@
 ﻿POPS = {
-
 	s:STATE_SAMARQAND = {
+		
 	
-		region_state:UZB = {
-			create_pop = {
-				culture = sephardic
-				size = 2220
-			}
-			create_pop = {
-				culture = mashriqi
-			religion = sunni
-				size = 2560
-			}
-			create_pop = {
-				culture = uighur
-				size = 2080
-			}
-			create_pop = {
-				culture = mashriqi
-				size = 2480
-			}
-			create_pop = {
-				culture = persian
-				size = 10200
-			}
-			create_pop = {
-				culture = tajik
-				size = 52480
-			}
-			create_pop = {
-				culture = tajik
-				size = 6930
-			}
-			create_pop = {
-				culture = kazak
-				size = 8140
-			}
-			create_pop = {
-				culture = turkmen
-				size = 5410
-			}
-			create_pop = {
-				culture = uzbek
-				size = 70430
-			}
-		
-			create_pop = {
-				culture = persian
-				size = 7130
-			}
-			create_pop = {
-				culture = tajik
-				size = 4860
-			}
-			create_pop = {
-				culture = kazak
-				size = 5680
-			}
-			create_pop = {
-				culture = turkmen
-				size = 3380
-			}
-			create_pop = {
-				culture = uzbek
-				size = 35210
-			}
-			create_pop = {
-				culture = persian
-				size = 3560
-			}
-			create_pop = {
-				culture = tajik
-				size = 2430
-			}
-			create_pop = {
-				culture = kazak
-				size = 2850
-			}
-			create_pop = {
-				culture = uzbek
-				size = 17590
-			}
-		
-			create_pop = {
-				culture = persian
-				size = 7130
-			}
-			create_pop = {
-				culture = tajik
-				size = 4830
-			}
-			create_pop = {
-				culture = kazak
-				size = 5680
-			}
-			create_pop = {
-				culture = turkmen
-				size = 2790
-			}
-			create_pop = {
-				culture = uzbek
-				size = 49520
-			}
-		
-			create_pop = { culture = tajik size = 34390 }
-			create_pop = { culture = tajik size = 1900 }
-			create_pop = { culture = tajik size = 3940 }
-			create_pop = { culture = tajik size = 3350 }
-			create_pop = { culture = tajik size = 4940 }
-			create_pop = { culture = tajik size = 12220 }
-			create_pop = { culture = tajik size = 1950 }
-			create_pop = { culture = tajik size = 1660 }
-			create_pop = { culture = tajik size = 2450 }
-			create_pop = { culture = tajik size = 24440 }
-			create_pop = { culture = tajik size = 2320 }
-			create_pop = { culture = tajik size = 3940 }
-			create_pop = { culture = tajik size = 3350 }
-			create_pop = { culture = tajik size = 4940 }
-			create_pop = { culture = tajik size = 48910 }
-			create_pop = { culture = tajik size = 3720 }
-			create_pop = { culture = tajik size = 5630 }
-			create_pop = { culture = tajik size = 4810 }
-			create_pop = { culture = tajik size = 1710 }
-			create_pop = { culture = tajik size = 7060 }
-			create_pop = { culture = tajik size = 1710 }
-			create_pop = { culture = tajik size = 1420 }
-			create_pop = { culture = tajik religion = sunni size = 1770 }
-			create_pop = { culture = tajik size = 1900 }}
-	}
-	s:samarqand = {
-		{
-
-		
-		
-		
-		
-		
-		
-		
-		
-		}
 	
 		region_state:UZB = {
 
 		create_pop = {
 			culture = tajik
 			religion = sunni
-			size = 39600
+			size = 239600
 		}
 		create_pop = {
 			culture = uzbek
 			religion = sunni
-			size = 33440
+			size = 233440
 		}
 		create_pop = {
 			culture = persian
@@ -171,13 +33,27 @@
 		create_pop = {
 			culture = bukharian_jews
 			religion = jewish
-			size = 880
+			size = 2880
+			pop_type = capitalists
 		}
 		create_pop = {
-			culture = bukharian_jews
-			religion = jewish
-			size = 880
+			culture = tajik
+			religion = sunni
+			size = 12380
+			pop_type = bureaucrats
 		}
-			}
+		create_pop = {
+			culture = tajik
+			religion = sunni
+			size = 12880
+			pop_type = clergymen
+
+		}
+		create_pop = {
+			culture = uzbek
+			religion = sunni
+			size = 12880
+			pop_type = soldiers
 		}
 	}
+}}

@@ -1,0 +1,18 @@
+l_english:
+ # Progress Events - Silk Road Revitalization
+ uzb_silk_road_silk_progress_title:0 "Silk Production Flourishes"
+ uzb_silk_road_silk_progress_desc:0 "Our silk plantations in Samarqand have reached 8 levels. The ancient art of sericulture is being revived, and the finest silk flows from the heart of the Silk Road once more."
+ uzb_silk_road_progress_ok:0 "The Silk Road lives again!"
+ 
+ uzb_silk_road_textile_progress_title:0 "Textile Industry Expands"
+ uzb_silk_road_textile_progress_desc:0 "Our textile mills have reached 10 levels. Silk and cotton are being transformed into fine textiles, ready to travel the trade routes that made Central Asia famous."
+ uzb_silk_road_progress_ok:0 "We weave the future!"
+ 
+ uzb_silk_road_trade_progress_title:0 "Trade Centers Restored"
+ uzb_silk_road_trade_progress_desc:0 "Our trade centers in Samarqand have reached 5 levels. The caravanserais are bustling once more, and merchants from across the world come to trade in our markets."
+ uzb_silk_road_progress_ok:0 "Commerce flows like silk!"
+ 
+ # Completion Event
+ uzb_silk_road_complete_title:0 "The Silk Road Reborn"
+ uzb_silk_road_complete_desc:0 "Uzbekistan has successfully revitalized the Silk Road! Our silk plantations produce the finest silk, our textile mills craft beautiful fabrics, and our trade centers welcome merchants from across the world. The ancient commercial legacy of the Timurid Empire has been restored, and Uzbekistan once again stands as the commercial heart of Central Asia. The world recognizes our greatness as the true successor to the Silk Road's golden age."
+ uzb_silk_road_complete_ok:0 "The Silk Road flows through Uzbekistan once more!"

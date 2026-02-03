@@ -1,19 +1,76 @@
-﻿
-bukharian_jews = {
+﻿bukharian_jews = {
 	color = rgb{ 181 146 224 }
 	religion = jewish
 	heritage = heritage_iranian
 	language = language_persian
 	traditions = { tradition_persianate }
 	graphics = arabic
-	obsessions = {}
+	obsessions = {
+		gold
+	}
+	taboos = {
+		electricity
+	}
+
 	ethnicities = {
 		10 = central_asian
 	}
-	male_common_first_names = {  }
-	female_common_first_names = {  }
-	noble_last_names = {  }
-	common_last_names = {  }
-	male_regal_first_names = {  }
-	female_regal_first_names = {  }
+
+	male_common_first_names = {
+		Yusuf
+		Ishaq
+		Musa
+		Dawud
+		Yaqub
+		Sulayman
+		Aharon
+		Eliyahu
+		Shlomo
+		Reuven
+	}
+
+	female_common_first_names = {
+		Sarah
+		Rivka
+		Leah
+		Rachel
+		Miriam
+		Esther
+		Hannah
+		Batya
+		Dinah
+		Tamar
+	}
+
+	noble_last_names = {
+		Bukhari
+		Samarkandi
+		Kattakurgani
+		Benyaminov
+	}
+
+	common_last_names = {
+		Bukhari
+		Samarkandi
+		Tashkandi
+		Maimon
+		Levi
+		Cohen
+		Yusupov
+		Davydov
+	}
+
+	male_regal_first_names = {
+		Sulayman
+		Dawud
+		Shlomo
+		Yusuf
+	}
+
+	female_regal_first_names = {
+		Esther
+		Sarah
+		Rivka
+		Miriam
+	}
 }

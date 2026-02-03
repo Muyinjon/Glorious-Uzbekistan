@@ -30,29 +30,5 @@
 			create_pop = { culture = tajik size = 5666 }
 			create_pop = { culture = tajik size = 6337 }}
 	}
-	s:ANDIJAN = {
-		region_state:UZB = {
-
-		create_pop = {
-			culture = uzbek
-			religion = sunni
-			size = 512000
-		}
-		create_pop = {
-			culture = tajik
-			religion = sunni
-			size = 168000
-		}
-		create_pop = {
-			culture = kirgiz
-			religion = sunni
-			size = 112000
-		}
-		create_pop = {
-			culture = uighur
-			religion = sunni
-			size = 8000
-		}
-		}
-	}
+	
 }

@@ -1,24 +1,24 @@
 ﻿MILITARY_FORMATIONS = {
     c:UZB ?= {
         create_military_formation = {
-            name = "First Army"
+            name = "GREAT ARMY"
             type = army
             hq_region = sr:region_central_asia
             
                 combat_unit = {
                     type = unit_type:combat_unit_type_line_infantry
                     state_region = s:STATE_BUKHARA
-                    count = 12
+                    count = 6
                 }
                 combat_unit = {
                     type = unit_type:combat_unit_type_cannon_artillery
                     state_region = s:STATE_BUKHARA
-                    count = 5
+                    count = 2
                 }
                 combat_unit = {
                     type = unit_type:combat_unit_type_hussars
                     state_region = s:STATE_BUKHARA
-                    count = 5
+                    count = 3
                 }
                 save_scope_as = muyin_army
         }
@@ -32,3 +32,4 @@
 		}
     }
 }
+

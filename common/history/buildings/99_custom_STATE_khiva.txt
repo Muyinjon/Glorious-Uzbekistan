@@ -4,12 +4,9 @@
 			create_building={
 				building="building_wheat_farm"
 				add_ownership = {
-					
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_KHIVA"
 					}
 				}
 				reserves=1
@@ -19,12 +16,9 @@
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership = {
-					
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_KHIVA"
 					}
 				}
 				reserves=1
@@ -34,12 +28,9 @@
 			create_building={
 				building="building_opium_plantation"
 				add_ownership = {
-					
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_KHIVA"
 					}
 				}
 				reserves=1
@@ -49,7 +40,7 @@
 			create_building={
 				building="building_barrack"
 				add_ownership = {
-					country = { country = "c:UZB" levels = 2 }
+					country = { country = c:UZB levels = 2 }
 				}
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }

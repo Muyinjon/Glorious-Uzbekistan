@@ -20,7 +20,7 @@
 		add_homeland = cu:kazak
 	}
 
-	s:STATE_SUKHANDARYA = {
+	s:STATE_SURKHANDARYA  = {
 	
 	create_state = {
 		country = c:UZB
@@ -88,7 +88,7 @@
 		add_homeland = cu:uzbek
 	}
 
-	s:STATE_NAMAGAN = {
+	s:STATE_NAMANGAN = {
 	
 	create_state = {
 		country = c:UZB

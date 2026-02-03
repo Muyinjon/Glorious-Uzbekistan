@@ -1,7 +1,7 @@
 Muyinjon_uzb = {
 	first_name = Muyinjon
 	last_name = Turobov
-	culture = cu:uzbek
+	culture = cu:tajik
 	female = no
 	dna = dna_victor_frankenstein
 	interest_group = ig_intelligentsia # Hails from a long line of Genevese syndics, so could also be PB
@@ -9,14 +9,28 @@ Muyinjon_uzb = {
 	age = 19 # Rough age when he created Frankenstein
 	religion = rel:sunni
 	traits = {
-			trait_ambitious
-			trait_charismatic_planner
-			trait_expert_offensive_planner # Great for a general
 			direct
 			engineer
 			ambitious
 			meticulous
 			charismatic
 			firebrand
+			persistent
+			innovative
+			cruel
+			expert_defensive_strategist
+			experienced_offensive_planner
+			explorer
+			
+	}
+	commander_usage = {
+		country_trigger = {
+			exists = c:UZB
+			c:UZB ?= THIS
+		}
+		role = general
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 1837.1.1
+		chance = 98
 	}
 }

@@ -2,45 +2,22 @@
  bukharian_jews:0 "Bukharian Jews"
  bukharian_jews_desc:0 "A small but influential Jewish community in Bukhara, known for its cultural achievements and religious practices."
 
+ je_uzb_silicon_and_silk_road:0 "Revitalizing the Silk Road"
 
-# Objectives
- je_uzb_silicon_and_silk_road:0 "The Silk Road Reborn"
- je_uzb_silicon_and_silk_road_desc:0 "For centuries, the cities of Uzbekistan stood at the crossroads of the world, where silk, cotton, and knowledge flowed between East and West. That era has faded, but its foundations remain. By rebuilding industry and modernizing agriculture, Uzbekistan can revive the Silk Road—not as a path of caravans, but as a network of factories, fields, and trade."
- je_uzb_silicon_and_silk_road_incomplete:0 "Uzbekistan is still rebuilding its industrial base and modernizing its agriculture. The nation is not yet ready to revive the Silk Road."
- je_uzb_silicon_and_silk_road_reason_1:0 "The nation must first rebuild its industrial base and modernize its agriculture."
- je_uzb_silicon_and_silk_road_reason_2:0 "The nation must first rebuild its industrial base and modernize its agriculture."
- je_uzb_silicon_and_silk_road_reason_3:0 "The nation must first rebuild its industrial base and modernize its agriculture."
+ je_uzb_silicon_and_silk_road_desc:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and [concept_trade]. Build [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')], establish [Concept('concept_building', 'Textile Mills')] in our historic trading cities, and restore [Concept('concept_building', 'Trade Centers')] to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy."
 
+ je_uzb_silicon_and_silk_road_lobby:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and [concept_trade]. Build [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')], establish [Concept('concept_building', 'Textile Mills')] in our historic trading cities, and restore [Concept('concept_building', 'Trade Centers')] to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy."
 
- je_uzb_silicon_and_silk_road_invalid:0 "Uzbekistan is not ready to revive the Silk Road. The nation must first rebuild its industrial base and modernize its agriculture."
- je_uzb_silicon_and_silk_road_invalid_tooltip:0 "Uzbekistan is not ready to revive the Silk Road. The nation must first rebuild its industrial base and modernize its agriculture."
-
- je_uzb_silicon_and_silk_road_progressing:0 "Uzbekistan is rebuilding its industrial base and modernizing its agriculture. The nation is not yet ready to revive the Silk Road."
- je_uzb_silicon_and_silk_road_progressing_tooltip:0 "Uzbekistan is rebuilding its industrial base and modernizing its agriculture. The nation is not yet ready to revive the Silk Road."
-
- je_uzb_silicon_and_silk_road_complete_tooltip:0 "Uzbekistan has successfully revived the spirit of the Silk Road. Modern industry now hums alongside fertile cotton fields, restoring the nation’s historic role as the economic heart of Central Asia."
+ je_uzb_silicon_and_silk_road_reason:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and [concept_trade]. Build [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')], establish [Concept('concept_building', 'Textile Mills')] in our historic trading cities, and restore [Concept('concept_building', 'Trade Centers')] to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy." 
 
 
 
- je_uzb_silicon_and_silk_road_complete:0 "Uzbekistan has successfully revived the spirit of the Silk Road. Modern industry now hums alongside fertile cotton fields, restoring the nation’s historic role as the economic heart of Central Asia."
-
-
-
- uzb_je_silicon_and_silk_road_tt_steel:0 "Build a Level 5 Steel Mill in Tashkent"
- uzb_je_silicon_and_silk_road_tt_cotton:0 "Build Level 10 Cotton Plantations in Andijan"
- uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a GDP of £10,000,000"
-
- je_uzb_silicon_and_silk_road_reward:0 "Gain the modifier Pride of the East, increasing prestige, technology spread, and migration attraction."
-
-
-# Modifiers
  uzb_modifier_pride_of_the_east:0 "Pride of the East"
  uzb_modifier_pride_of_the_east_desc:0 "Uzbekistan stands once more as a beacon of culture, learning, and prosperity."
 
  uzb_modifier_pride_of_the_east:0 "Pride of the East"
  uzb_modifier_pride_of_the_east_desc:0 "Industrial self-sufficiency and rising prosperity have revived the nation's confidence. Scholars, engineers, and entrepreneurs rally to build a modern Uzbekistan."
 
-# State traits
 
  state_trait_silk_road_hub:0 "Silk Road Hub"
  state_trait_silk_road_hub_desc:0 "A historic crossroads of caravan trade and crafts. Strong commercial networks, specialized silk production, and improved local logistics help the state support more development."
@@ -52,8 +29,7 @@
  state_trait_aral_sea_desc:0 "In 1836 the Aral Sea still supported major fishing and river commerce. Water routes improve local logistics and help sustain larger fishing communities."
 
 
-# State regions
-# State regions
+
 
  STATE_SAMARQAND:0 "Samarqand"
  STATE_SAMARQAND_desc:0 "Samarqand is one of the oldest cities in Central Asia, famed for its role along the Silk Road. Long a center of scholarship, craftsmanship, and international trade, the city remains a symbol of Uzbek cultural and economic life."
@@ -67,8 +43,8 @@
  STATE_BUKHARA:0 "Bukhara"
  STATE_BUKHARA_desc:0 "Bukhara is a historic center of religion, learning, and trade. For centuries, its madrasas and markets drew merchants and scholars from across Eurasia, making it one of the most influential cities of the Silk Road."
 
- STATE_KASHKADARYA:0 "Kashkadarya"
- STATE_KASHKADARYA_desc:0 "Kashkadarya’s plains and river valleys support extensive agriculture, while its position south of Samarqand links the region to both internal and international trade routes."
+ STATE_KASHIKADARYA:0 "Kashkadarya"
+ STATE_STATE_KASHIKADARYA_desc:0 "Kashkadarya’s plains and river valleys support extensive agriculture, while its position south of Samarqand links the region to both internal and international trade routes."
 
  STATE_JIZZAKH:0 "Jizzakh"
  STATE_JIZZAKH_desc:0 "Situated between steppe and mountain, Jizzakh has historically acted as a transit region for caravans and armies alike. Its geography makes it vital for overland connections across Uzbekistan."
@@ -83,6 +59,7 @@
  STATE_ANDIJAN_desc:0 "Located in the fertile Fergana Valley, Andijan is a center of intensive agriculture and population growth. Its cotton fields and workshops form the backbone of regional production."
 
  STATE_NAMANGAN:0 "Namangan"
+ STATE_NAMANGAN_tt:0 "Namangan"
  STATE_NAMANGAN_desc:0 "Namangan is a densely populated and agriculturally rich region of the Fergana Valley, known for its skilled labor, trade networks, and cultural traditions."
 
  STATE_KARAKALPAKSTAN:0 "Karakalpakstan"
@@ -91,11 +68,32 @@
  STATE_FERGANA:0 "Fergana"
  STATE_FERGANA_desc:0 "The Fergana region lies at the heart of one of Central Asia’s most fertile valleys. Dense settlement, intensive farming, and vibrant trade have made it an enduring economic center."
 
- STATE_KHIVA:0 "Khiva"
- STATE_KHIVA_desc:0 "Khiva is a walled oasis city that once served as the capital of the Khivan Khanate. Its strategic position along desert trade routes made it a vital node in Central Asian commerce."
+ STATE_KHIVA:0 "Khorezm"
+ STATE_KHIVA_desc:0 "Khorezm is a historic oasis region on the lower Amu Darya. Long a center of trade and learning, its fortified cities and desert routes made it a vital node in Central Asian commerce."
 
 
 
+ uzb_silk_road_cotton_progress_title:0 "Cotton of the Fergana Valley"
+ uzb_silk_road_cotton_progress_desc:0 "The fields of the Fergana Valley now yield cotton in great abundance. Agricultural expansion has laid the foundation for Uzbekistan’s renewed economic strength."
+
+ uzb_silk_road_steel_progress_title:0 "Steel of Tashkent"
+ uzb_silk_road_steel_progress_desc:0 "With steel mills rising in Tashkent, Uzbekistan takes a decisive step toward industrial power. The modern Silk Road begins to take shape."
+
+ uzb_silk_road_progress_ok:0 "The Silk Road advances"
+
+
+
+
+
+ 
+ # Tooltips for completion requirements
+ uzb_je_silicon_and_silk_road_tt_silk:0 "Build at least 8 levels of [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')]"
+ uzb_je_silicon_and_silk_road_tt_textile:0 "Build at least 10 levels of [Concept('concept_building', 'Textile Mills')] in [Concept('concept_state', 'Samarqand')] or [Concept('concept_state', 'Bukhara')]"
+ uzb_je_silicon_and_silk_road_tt_trade:0 "Build at least 5 levels of [Concept('concept_building', 'Trade Centers')] in [Concept('concept_state', 'Samarqand')]"
+ uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a [concept_gdp] of £10.0M"
+ 
+ # Completion text
+ je_uzb_silicon_and_silk_road_complete:0 "Uzbekistan has revitalized the Silk Road! Our [Concept('concept_building', 'Silk Plantations')], [Concept('concept_building', 'Textile Mills')], and [Concept('concept_building', 'Trade Centers')] have restored our position as the commercial heart of Central Asia!"
 
 
 

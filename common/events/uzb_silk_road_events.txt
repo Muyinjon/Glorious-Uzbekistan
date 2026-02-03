@@ -1,0 +1,53 @@
+country_event = {
+
+	uzb_silk_road_silk_progress = {
+		title = uzb_silk_road_silk_progress_title
+		desc = uzb_silk_road_silk_progress_desc
+		icon = "gfx/interface/icons/event_icons/agriculture.dds"
+
+		is_triggered_only = yes
+
+		option = {
+			name = uzb_silk_road_progress_ok
+		}
+	}
+
+	uzb_silk_road_textile_progress = {
+		title = uzb_silk_road_textile_progress_title
+		desc = uzb_silk_road_textile_progress_desc
+		icon = "gfx/interface/icons/event_icons/industry.dds"
+
+		is_triggered_only = yes
+
+		option = {
+			name = uzb_silk_road_progress_ok
+		}
+	}
+
+	uzb_silk_road_trade_progress = {
+		title = uzb_silk_road_trade_progress_title
+		desc = uzb_silk_road_trade_progress_desc
+		icon = "gfx/interface/icons/event_icons/trade.dds"
+
+		is_triggered_only = yes
+
+		option = {
+			name = uzb_silk_road_progress_ok
+		}
+	}
+
+	uzb_silk_road_complete = {
+		title = uzb_silk_road_complete_title
+		desc = uzb_silk_road_complete_desc
+		icon = "gfx/interface/icons/event_icons/victory.dds"
+		is_triggered_only = yes
+		
+		option = {
+			name = uzb_silk_road_complete_ok
+			add_modifier = {
+				name = uzb_modifier_pride_of_the_east
+				days = -1
+			}
+		}
+	}
+}

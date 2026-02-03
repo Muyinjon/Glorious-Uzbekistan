@@ -1,0 +1,9 @@
+l_english:
+ state_trait_silk_road_hub:0 "Silk Road Hub"
+ state_trait_silk_road_hub_desc:0 "A historic crossroads of caravan trade and crafts. This region benefits from strong commercial networks, specialized silk production, and improved infrastructure from its dense population."
+ 
+ state_trait_fergana_valley:0 "Fergana Valley"
+ state_trait_fergana_valley_desc:0 "A fertile valley with intensive farming traditions and dense settlement patterns, supporting higher agricultural output and better infrastructure from population density."
+ 
+ state_trait_aral_sea:0 "Aral Sea (1836)"
+ state_trait_aral_sea_desc:0 "In 1836 the Aral Sea still supported major fishing and river commerce. Coastal communities profit from access to abundant fisheries and improved infrastructure from population."

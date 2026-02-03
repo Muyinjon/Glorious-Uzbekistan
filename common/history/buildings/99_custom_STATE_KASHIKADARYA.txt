@@ -11,11 +11,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 4
-						region = "STATE_KASHIKADARYA"
 					}
 				}
 			}
@@ -24,11 +22,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 5
-						region = "STATE_KASHIKADARYA"
 					}
 				}
 			}
@@ -37,11 +33,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_KASHIKADARYA"
 					}
 				}
 			}}

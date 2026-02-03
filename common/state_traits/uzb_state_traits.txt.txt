@@ -10,6 +10,7 @@ state_trait_silk_road_hub = {
 		# increases "infrastructure from population" so larger urbanizing states can support more buildings.
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 15
+		building_capitalists_job_attractiveness_mult = 0.50
 	}
 }
 

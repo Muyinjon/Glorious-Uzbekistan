@@ -1,26 +1,23 @@
 ﻿
 BUILDINGS = {
-	s:STATE_SUKHANDARYA = {
+	s:STATE_SURKHANDARYA  = {
 		region_state:UZB = {
 			create_building = {
 				building = "building_barrack"
+				level = 1
 
 				add_ownership = {
-					country = { country = "c:UZB" levels = 1 }
+					country = { country = c:UZB levels = 1 }
 				}
 			
 			}
 			create_building = {
 				building = "building_iron_mine"
+				level = 1
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:UZB"
-						levels = 1
-						region = "STATE_SUKHANDARYA"
-					}
+					country = { country = c:UZB levels = 1 }
 				}
 			}
 			create_building = {
@@ -28,11 +25,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_SUKHANDARYA"
 					}
 				}
 			}
@@ -41,11 +36,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_SUKHANDARYA"
 					}
 				}
 			}
@@ -54,11 +47,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 5
-						region = "STATE_SUKHANDARYA"
 					}
 				}
 			}
@@ -67,11 +58,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 3
-						region = "STATE_SUKHANDARYA"
 					}
 				}
 			}
@@ -80,11 +69,9 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 5
-						region = "STATE_SUKHANDARYA"
 					}
 				}
 			}}

@@ -6,12 +6,9 @@ BUILDINGS = {
 				building = "building_livestock_ranch"
 
 				add_ownership = {
-					
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_NAVOI"
 					}
 				}
 			
@@ -20,12 +17,9 @@ BUILDINGS = {
 				building = "building_tea_plantation"
 
 				add_ownership = {
-					
-					building = {
-						type = "building_manor_house"
-						country = "c:UZB"
+					country = {
+						country = c:UZB
 						levels = 1
-						region = "STATE_NAVOI"
 					}
 				}
 			
@@ -34,7 +28,7 @@ BUILDINGS = {
 				building = "building_barrack"
 
 				add_ownership = {
-					country = { country = "c:UZB" levels = 2 }
+					country = { country = c:UZB levels = 2 }
 				}
 			
 			}
