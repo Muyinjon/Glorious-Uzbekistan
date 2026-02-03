@@ -1,18 +1,31 @@
 l_english:
  # Progress Events - Silk Road Revitalization
  uzb_silk_road_silk_progress_title:0 "Silk Production Flourishes"
-uzb_silk_road_silk_progress_desc:0 "Our [Concept('concept_building', 'Silk Plantations')] in [Concept('concept_state', 'Samarqand')] have reached 8 levels. The ancient art of sericulture is being revived, and the finest silk flows from the heart of the Silk Road once more."
+ uzb_silk_road_silk_progress_desc:0 "Our silk plantations in Samarqand have reached 8 levels. The ancient art of sericulture is being revived, and the finest silk flows from the heart of the Silk Road once more."
  uzb_silk_road_progress_ok:0 "The Silk Road lives again!"
  
  uzb_silk_road_textile_progress_title:0 "Textile Industry Expands"
-uzb_silk_road_textile_progress_desc:0 "Our [Concept('concept_building', 'Textile Mills')] have reached 10 levels. Silk and cotton are being transformed into fine textiles, ready to travel the [concept_trade] routes that made Central Asia famous."
- uzb_silk_road_progress_ok:0 "We weave the future!"
+ uzb_silk_road_textile_progress_desc:0 "Our textile mills have reached 10 levels. Silk and cotton are being transformed into fine textiles, ready to travel the trade routes that made Central Asia famous."
+ uzb_silk_road_textile_progress_ok:0 "We weave the future!"
  
  uzb_silk_road_trade_progress_title:0 "Trade Centers Restored"
-uzb_silk_road_trade_progress_desc:0 "Our [Concept('concept_building', 'Trade Centers')] in [Concept('concept_state', 'Samarqand')] have reached 5 levels. The caravanserais are bustling once more, and merchants from across the world come to trade in our markets."
- uzb_silk_road_progress_ok:0 "Commerce flows like silk!"
+ uzb_silk_road_trade_progress_desc:0 "Our trade centers in Samarqand have reached 5 levels. The caravanserais are bustling once more, and merchants from across the world come to trade in our markets."
  
- # Completion Event
+ # Completion Event - Main
  uzb_silk_road_complete_title:0 "The Silk Road Reborn"
-uzb_silk_road_complete_desc:0 "Uzbekistan has successfully revitalized the Silk Road! Our [Concept('concept_building', 'Silk Plantations')] produce the finest silk, our [Concept('concept_building', 'Textile Mills')] craft beautiful fabrics, and our [Concept('concept_building', 'Trade Centers')] welcome merchants from across the world. The ancient commercial legacy of the Timurid Empire has been restored, and Uzbekistan once again stands as the commercial heart of Central Asia. The world recognizes our greatness as the true successor to the Silk Road's golden age."
- uzb_silk_road_complete_ok:0 "The Silk Road flows through Uzbekistan once more!"
+ uzb_silk_road_complete_desc:0 "Uzbekistan has successfully revitalized the Silk Road! Our silk plantations produce the finest silk, our textile mills craft beautiful fabrics, and our trade centers welcome merchants from across the world. The ancient commercial legacy of the Timurid Empire has been restored, and Uzbekistan once again stands as the commercial heart of Central Asia. The world recognizes our greatness as the true successor to the Silk Road's golden age.\n\nHow shall we celebrate this achievement?"
+ uzb_silk_road_complete_option_commercial:0 "Focus on Trade and Commerce"
+ uzb_silk_road_complete_option_commercial_desc:0 "Emphasize our role as the commercial hub of Central Asia, strengthening trade routes and merchant networks."
+ uzb_silk_road_complete_option_industrial:0 "Invest in Industrial Production"
+ uzb_silk_road_complete_option_industrial_desc:0 "Modernize our textile mills with advanced machinery, increasing production capacity and efficiency."
+ uzb_silk_road_complete_option_cultural:0 "Celebrate Our Cultural Legacy"
+ uzb_silk_road_complete_option_cultural_desc:0 "Honor the artistic and cultural traditions of the Silk Road, enhancing our prestige and soft power."
+ 
+ # Follow-up Events
+ uzb_silk_road_followup_commercial_title:0 "The Great Caravanserai"
+ uzb_silk_road_followup_commercial_desc:0 "By focusing on commerce, Samarqand has become the greatest trading hub in Central Asia. Merchants from Europe, India, and China flock to our markets, and the caravanserais overflow with goods from across the known world. Our trade routes now span continents, and Uzbekistan's name is synonymous with prosperity and opportunity."
+ uzb_silk_road_followup_industrial_title:0 "The Loom of Progress"
+ uzb_silk_road_followup_industrial_desc:0 "Our investment in industrial modernization has paid dividends. Steam-powered looms now produce textiles at unprecedented speeds, and our textile mills have become models of efficiency. The Silk Road's legacy lives on not just in tradition, but in innovation that rivals the greatest industrial powers of the age."
+ uzb_silk_road_followup_cultural_title:0 "The Golden Age Returns"
+ uzb_silk_road_followup_cultural_desc:0 "By celebrating our cultural heritage, Uzbekistan has become a beacon of art, learning, and refinement. Scholars and artists from across the world visit Samarqand to study our traditions, and our prestige has reached new heights. The Timurid Empire's golden age has returned, and all recognize Uzbekistan as its true successor."
+ uzb_silk_road_followup_ok:0 "Uzbekistan stands proud!"

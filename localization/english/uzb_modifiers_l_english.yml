@@ -1,13 +1,6 @@
 l_english:
  uzb_modifier_pride_of_the_east:0 "Pride of the East"
  uzb_modifier_pride_of_the_east_desc:0 "Uzbekistan has proven itself as the industrial successor to the Timurid Empire, earning recognition and respect from the world."
- uzb_modifier_ulughbek_scholars:0 "Ulughbek's Scholars"
- uzb_modifier_ulughbek_scholars_desc:0 "A renewed culture of learning and astronomy strengthens Uzbekistan's intellectual foundations."
- uzb_modifier_temur_army:0 "Amir Temur Army"
- uzb_modifier_temur_army_desc:0 "Military reforms restore discipline, prestige, and strategic confidence."
- uzb_modifier_timurid_claims:0 "Timurid Claims"
- uzb_modifier_timurid_claims_desc:0 "The reconquest of historic lands elevates Uzbekistan's standing and economic ambition."
- uzb_modifier_golden_era:0 "Timurid Golden Era"
- uzb_modifier_golden_era_desc:0 "Prosperity, stability, and cultural vitality mark a new golden age."
- uzb_modifier_colonial_frontiers:0 "Colonial Frontiers"
- uzb_modifier_colonial_frontiers_desc:0 "Organized colonial policy brings new markets and population growth."
+ 
+ uzb_modifier_silk_road_cultural_legacy:0 "Silk Road Cultural Legacy"
+ uzb_modifier_silk_road_cultural_legacy_desc:0 "Uzbekistan celebrates its rich cultural heritage as the heart of the Silk Road, attracting scholars, artists, and merchants from across the world."

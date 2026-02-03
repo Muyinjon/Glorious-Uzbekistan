@@ -42,12 +42,96 @@ country_event = {
 		icon = "gfx/interface/icons/event_icons/victory.dds"
 		is_triggered_only = yes
 		
+		immediate = {
+			s:STATE_SAMARQAND = {
+				save_scope_as = samarqand_state
+			}
+		}
+		
 		option = {
-			name = uzb_silk_road_complete_ok
+			name = uzb_silk_road_complete_option_commercial
+			desc = uzb_silk_road_complete_option_commercial_desc
+			# Focus on trade and commerce
 			add_modifier = {
 				name = uzb_modifier_pride_of_the_east
 				days = -1
 			}
+			scope:samarqand_state = {
+				add_modifier = {
+					name = state_trait_silk_road_hub
+					days = -1
+				}
+			}
+			trigger_event = { id = uzb_silk_road_complete_followup.1 }
 		}
+		
+		option = {
+			name = uzb_silk_road_complete_option_industrial
+			desc = uzb_silk_road_complete_option_industrial_desc
+			# Focus on industrial production
+			add_modifier = {
+				name = uzb_modifier_pride_of_the_east
+				days = -1
+			}
+			any_scope_building = {
+				is_building_type = building_textile_mill
+				state = { OR = { state_region = s:STATE_SAMARQAND state_region = s:STATE_BUKHARA } }
+				limit = 1
+				add_production_method = pm_steam_powered_looms
+			}
+			trigger_event = { id = uzb_silk_road_complete_followup.2 }
+		}
+		
+		option = {
+			name = uzb_silk_road_complete_option_cultural
+			desc = uzb_silk_road_complete_option_cultural_desc
+			# Focus on cultural prestige
+			add_modifier = {
+				name = uzb_modifier_pride_of_the_east
+				days = -1
+			}
+			add_modifier = {
+				name = uzb_modifier_silk_road_cultural_legacy
+				days = -1
+			}
+			trigger_event = { id = uzb_silk_road_complete_followup.3 }
+		}
+	}
+}
+
+# Follow-up events based on choice
+country_event = {
+	id = uzb_silk_road_complete_followup.1
+	title = uzb_silk_road_followup_commercial_title
+	desc = uzb_silk_road_followup_commercial_desc
+	icon = "gfx/interface/icons/event_icons/trade.dds"
+	is_triggered_only = yes
+	
+	option = {
+		name = uzb_silk_road_followup_ok
+	}
+}
+
+country_event = {
+	id = uzb_silk_road_complete_followup.2
+	title = uzb_silk_road_followup_industrial_title
+	desc = uzb_silk_road_followup_industrial_desc
+	icon = "gfx/interface/icons/event_icons/industry.dds"
+	is_triggered_only = yes
+	
+	option = {
+		name = uzb_silk_road_followup_ok
+	}
+}
+
+country_event = {
+	id = uzb_silk_road_complete_followup.3
+	title = uzb_silk_road_followup_cultural_title
+	desc = uzb_silk_road_followup_cultural_desc
+	icon = "gfx/interface/icons/event_icons/victory.dds"
+	is_triggered_only = yes
+	
+	option = {
+		name = uzb_silk_road_followup_ok
 	}
 }

@@ -34,4 +34,10 @@ uzb_modifier_colonial_frontiers = {
 	country_trade_goods_value_mult = 0.08
 }
 
+uzb_modifier_silk_road_cultural_legacy = {
+	country_prestige_mult = 0.20
+	country_mass_migration_attraction_mult = 0.30
+	country_trade_goods_value_mult = 0.05
+}
+
 

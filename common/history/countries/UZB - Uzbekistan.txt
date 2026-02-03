@@ -8,12 +8,8 @@
 
 		# Journal Entry: "The Silicon and Silk Road"
 		add_journal_entry = { type = je_uzb_silicon_and_silk_road }
-
-	# Fallback: spawn the custom general if history creation fails
-	trigger_event = {
-		id = uzb_character.1
-		days = 10
+		
+		# Journal Entry: "Forge the Amir Temur Army"
+		add_journal_entry = { type = je_uzb_amir_temur_army }
 	}
-	}
-	
 }

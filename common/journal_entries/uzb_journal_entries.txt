@@ -1,6 +1,6 @@
 je_uzb_silicon_and_silk_road = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
+	icon = "gfx/interface/icons/event_icons/trade.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
