@@ -11,5 +11,8 @@
 		
 		# Journal Entry: "Forge the Amir Temur Army"
 		add_journal_entry = { type = je_uzb_amir_temur_army }
+
+		# Journal Entry: "The Question of the Sown"
+		add_journal_entry = { type = je_uzbekistan_identity }
 	}
 }

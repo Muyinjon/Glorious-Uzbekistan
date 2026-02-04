@@ -1,0 +1,5 @@
+﻿l_english:
+ #TUTORIAL: Note: This is not required at all, you decide whether you want that or not
+ #TUTORIAL: We wanted to rename the devout interest group to "Good Boys", see game\common\history\countries\TUT - Tutorial Nation.txt
+ #TUTORIAL: So the example would be like this
+ ig_good_boys_name:0 "Good Boys"

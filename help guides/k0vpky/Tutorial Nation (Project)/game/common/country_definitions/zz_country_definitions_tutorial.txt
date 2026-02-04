@@ -1,0 +1,19 @@
+#TUTORIAL Replace TUT with your country's tag
+TUT = {
+
+	#TUTORIAL Replace R, G, B with the RGB color code
+	color = { 0 255 0 }
+	
+	#TUTORIAL Country types: (recognized, unrecognized, colonial, decentralized)
+	country_type = recognized
+	
+	#TUTORIAL Tiers: (empire, kingdom, principality, grand_principality, city_state, hegemony)
+	tier = principality
+	
+	#TUTORIAL Choose your country's primary cultures, you can find cultures names in game\common\cultures\00_cultures.txt
+	cultures = { albanian turkish }
+	
+	#TUTORIAL Choose your country's capital state, you can find states names in 
+	capital = STATE_ALBANIA
+	
+}

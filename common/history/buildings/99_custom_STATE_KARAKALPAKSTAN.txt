@@ -23,6 +23,8 @@ BUILDINGS = {
 						levels = 2
 					}
 				}
-			}}}
+			}
+		create_building = {
+		}}
 	}
 

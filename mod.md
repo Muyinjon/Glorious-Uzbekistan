@@ -32,6 +32,9 @@ It’s for players who want an Uzbekistan-focused start and a more detailed Uzbe
 - **Fergana Valley**: Intended for Andijan/Namangan/Fergana to boost agriculture.
 - **Aral Sea (1836)**: Intended for Karakalpakstan to boost fishing.
 
+### Journal entries and events
+- **The Question of the Sown**: A 20-year identity dilemma for Uzbekistan that resolves into Uzbek primacy, Tajik primacy, or a middle path, with periodic pulse events and a failure state if unresolved.
+
 ### Cultures (work in progress)
 - Added a custom culture definition intended for **Bukharian Jews**.
 - **Note**: This is still WIP in Version 1; names/values may be adjusted in later versions.

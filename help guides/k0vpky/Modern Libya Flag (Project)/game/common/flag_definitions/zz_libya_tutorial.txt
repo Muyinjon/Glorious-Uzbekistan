@@ -1,0 +1,11 @@
+﻿#TUTORIAL If you're just changing the flag of an existing nation, you need to define it here in flag definitions and make sure to give it high priority so that it overwrites the original
+#TUTORIAL I just created this file so that i can give the flag we created a higher priority than the vanilla flag
+
+#TUTORIAL Replace TRI with your nation's country tag
+TRI = {
+	flag_definition = {
+		coa = TRI
+		subject_canton = TRI		
+		priority = 200
+	}
+}

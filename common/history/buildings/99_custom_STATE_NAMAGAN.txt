@@ -17,7 +17,7 @@ BUILDINGS = {
 			}
 		
 			create_building = {
-				building = "building_white_house"
+				building = "building_wheat_farm"
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {

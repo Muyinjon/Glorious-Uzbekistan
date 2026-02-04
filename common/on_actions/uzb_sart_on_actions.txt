@@ -1,0 +1,10 @@
+on_yearly_pulse = {
+	random_events = {
+		70 = 0
+		6 = uzb_sart.1
+		6 = uzb_sart.2
+		6 = uzb_sart.3
+		6 = uzb_sart.4
+		6 = uzb_sart.5
+	}
+}

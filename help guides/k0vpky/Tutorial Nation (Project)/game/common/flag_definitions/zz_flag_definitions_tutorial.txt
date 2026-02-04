@@ -1,0 +1,9 @@
+#TUTORIAL Replace TUT with your country's tag
+
+TUT = {
+	flag_definition = {
+		coa = TUT		
+		subject_canton = TUT
+		priority = 1
+	}
+}

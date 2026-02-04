@@ -1,0 +1,25 @@
+#TUTORIAL This file is super important, because here you craft your country's flag
+
+#TUTORIAL Replace TUT with your nation's country tag
+TUT = {
+	#TUTORIAL Don't change this
+	pattern = "pattern_solid.tga"
+	
+	#TUTORIAL for color1, you need to choose what background color you want to give your nation's flag, replace green by something else
+	color1 = "green"
+	
+	#TUTORIAL After you chose the background color, you need to now identify all the colors that are going to be involved in the flag like the following:
+	#TUTORIAL If you're adding the Modren Day Cuba flag, which has 3 colors (Red, blue and white) you need to choose one color to be the background and two colors to be secondary
+	#TUTORIAL To add secondary colors you need to add lines like these:
+	#color2 = "red"
+	#color3 = "blue"
+	#TUTORIAL IF you want to know how to create flags that have more than two colors in them, then please read my Flags tutorial and template
+	
+	colored_emblem = {
+		#TUTORIAL Replace tutorial_flag.dds with the file name you created in game\gfx\coat_of_arms\colored_emblems
+		texture = "tutorial_flag.dds"
+		
+		#TUTORIAL Here you choose what color do you want the file show up in, us we want it white so we do it like this:
+		color1 = "white"
+	}
+}

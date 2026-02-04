@@ -1,0 +1,288 @@
+country_event = {
+	id = uzb_sart.1
+	title = uzb_sart.1.t
+	desc = uzb_sart.1.d
+	icon = "gfx/interface/icons/event_icons/tensions.dds"
+	is_triggered_only = yes
+	cooldown = { years = 3 }
+
+	trigger = {
+		c:UZB ?= THIS
+		has_journal_entry = je_uzbekistan_identity
+		NOT = { has_variable = uzb_identity_resolved }
+		check_variable = { name = identity_timer value > 0 }
+	}
+
+	option = {
+		name = uzb_sart.1.a
+		default_option = yes
+		change_variable = { name = uzb_identity_uzbek_progress add = 10 }
+		add_radicals = { culture = cu:tajik value = 0.20 }
+	}
+	option = {
+		name = uzb_sart.1.b
+		change_variable = { name = uzb_identity_tajik_progress add = 10 }
+		add_radicals = { culture = cu:uzbek value = 0.20 }
+	}
+	option = {
+		name = uzb_sart.1.c
+		change_variable = { name = uzb_identity_middle_progress add = 5 }
+		add_modifier = { name = uzb_modifier_bazaar_mediation months = 36 }
+		add_loyalists = { culture = cu:uzbek value = 0.05 }
+		add_loyalists = { culture = cu:tajik value = 0.05 }
+	}
+}
+
+country_event = {
+	id = uzb_sart.2
+	title = uzb_sart.2.t
+	desc = uzb_sart.2.d
+	icon = "gfx/interface/icons/event_icons/education.dds"
+	is_triggered_only = yes
+	cooldown = { years = 3 }
+
+	trigger = {
+		c:UZB ?= THIS
+		has_journal_entry = je_uzbekistan_identity
+		NOT = { has_variable = uzb_identity_resolved }
+		check_variable = { name = identity_timer value > 0 }
+	}
+
+	option = {
+		name = uzb_sart.2.a
+		default_option = yes
+		change_variable = { name = uzb_identity_uzbek_progress add = 15 }
+		add_modifier = { name = uzb_modifier_jadid_turkic months = 120 }
+	}
+	option = {
+		name = uzb_sart.2.b
+		change_variable = { name = uzb_identity_tajik_progress add = 15 }
+		add_modifier = { name = uzb_modifier_jadid_persian months = 120 }
+	}
+	option = {
+		name = uzb_sart.2.c
+		change_variable = { name = uzb_identity_middle_progress add = 10 }
+		add_modifier = { name = uzb_modifier_jadid_bilingual months = 120 }
+	}
+}
+
+country_event = {
+	id = uzb_sart.3
+	title = uzb_sart.3.t
+	desc = uzb_sart.3.d
+	icon = "gfx/interface/icons/event_icons/taxes.dds"
+	is_triggered_only = yes
+	cooldown = { years = 3 }
+
+	trigger = {
+		c:UZB ?= THIS
+		has_journal_entry = je_uzbekistan_identity
+		NOT = { has_variable = uzb_identity_resolved }
+		check_variable = { name = identity_timer value > 0 }
+	}
+
+	option = {
+		name = uzb_sart.3.a
+		default_option = yes
+		change_variable = { name = uzb_identity_uzbek_progress add = 10 }
+		change_variable = { name = uzb_identity_tajik_progress add = 10 }
+		add_radicals = { culture = cu:uzbek value = 0.15 }
+		add_radicals = { culture = cu:tajik value = 0.15 }
+	}
+	option = {
+		name = uzb_sart.3.b
+		change_variable = { name = uzb_identity_middle_progress add = 10 }
+		add_approval = { interest_group = ig_landowners value = -10 }
+	}
+}
+
+country_event = {
+	id = uzb_sart.4
+	title = uzb_sart.4.t
+	desc = uzb_sart.4.d
+	icon = "gfx/interface/icons/event_icons/royalty.dds"
+	is_triggered_only = yes
+	cooldown = { years = 3 }
+
+	trigger = {
+		c:UZB ?= THIS
+		has_journal_entry = je_uzbekistan_identity
+		NOT = { has_variable = uzb_identity_resolved }
+		check_variable = { name = identity_timer value > 0 }
+	}
+
+	option = {
+		name = uzb_sart.4.a
+		default_option = yes
+		change_variable = { name = uzb_identity_uzbek_progress add = 15 }
+		add_approval = { interest_group = ig_armed_forces value = 10 }
+	}
+	option = {
+		name = uzb_sart.4.b
+		change_variable = { name = uzb_identity_tajik_progress add = 15 }
+		add_approval = { interest_group = ig_devout value = 10 }
+	}
+}
+
+country_event = {
+	id = uzb_sart.5
+	title = uzb_sart.5.t
+	desc = uzb_sart.5.d
+	icon = "gfx/interface/icons/event_icons/agitators.dds"
+	is_triggered_only = yes
+	cooldown = { years = 3 }
+
+	trigger = {
+		c:UZB ?= THIS
+		has_journal_entry = je_uzbekistan_identity
+		NOT = { has_variable = uzb_identity_resolved }
+		check_variable = { name = identity_timer value > 0 }
+	}
+
+	option = {
+		name = uzb_sart.5.a
+		default_option = yes
+		change_variable = { name = uzb_identity_uzbek_progress add = 15 }
+		add_loyalists = { culture = cu:uzbek value = 0.20 }
+		add_radicals = { culture = cu:tajik value = 0.30 }
+	}
+	option = {
+		name = uzb_sart.5.b
+		change_variable = { name = uzb_identity_middle_progress add = 10 }
+		add_loyalists = { culture = cu:tajik value = 0.20 }
+		add_approval = { interest_group = ig_intelligentsia value = -10 }
+		add_approval = { interest_group = ig_armed_forces value = -10 }
+	}
+}
+
+country_event = {
+	id = uzb_sart.10
+	title = uzb_sart.10.t
+	desc = uzb_sart.10.d
+	icon = "gfx/interface/icons/event_icons/victory.dds"
+	is_triggered_only = yes
+
+	trigger = {
+		c:UZB ?= THIS
+		NOT = { has_variable = uzb_identity_resolved }
+	}
+
+	immediate = {
+		set_variable = uzb_identity_resolved
+	}
+
+	option = {
+		name = uzb_sart.10.a
+		default_option = yes
+		add_modifier = { name = uzb_modifier_uzbek_primacy days = -1 }
+		add_primary_culture = cu:uzbek
+		remove_primary_culture = cu:tajik
+		add_radicals = { culture = cu:tajik value = 0.30 }
+		if = {
+			limit = { has_technology_researched = nationalism }
+			start_secession = { culture = cu:tajik state = s:STATE_SAMARQAND }
+			start_secession = { culture = cu:tajik state = s:STATE_BUKHARA }
+		}
+	}
+}
+
+country_event = {
+	id = uzb_sart.20
+	title = uzb_sart.20.t
+	desc = uzb_sart.20.d
+	icon = "gfx/interface/icons/event_icons/victory.dds"
+	is_triggered_only = yes
+
+	trigger = {
+		c:UZB ?= THIS
+		NOT = { has_variable = uzb_identity_resolved }
+	}
+
+	immediate = {
+		set_variable = uzb_identity_resolved
+	}
+
+	option = {
+		name = uzb_sart.20.a
+		default_option = yes
+		add_modifier = { name = uzb_modifier_tajik_primacy days = -1 }
+		add_primary_culture = cu:tajik
+		remove_primary_culture = cu:uzbek
+		add_radicals = { culture = cu:uzbek value = 0.30 }
+		if = {
+			limit = { has_technology_researched = nationalism }
+			start_secession = { culture = cu:uzbek state = s:STATE_TOSHKENT }
+			start_secession = { culture = cu:uzbek state = s:STATE_FERGANA }
+			start_secession = { culture = cu:uzbek state = s:STATE_KHIVA }
+		}
+	}
+}
+
+country_event = {
+	id = uzb_sart.30
+	title = uzb_sart.30.t
+	desc = uzb_sart.30.d
+	icon = "gfx/interface/icons/event_icons/diplomacy.dds"
+	is_triggered_only = yes
+
+	trigger = {
+		c:UZB ?= THIS
+		NOT = { has_variable = uzb_identity_resolved }
+		OR = {
+			has_law = law_multiculturalism
+			has_law = law_cultural_exclusion
+		}
+	}
+
+	immediate = {
+		set_variable = uzb_identity_resolved
+	}
+
+	option = {
+		name = uzb_sart.30.a
+		default_option = yes
+		add_modifier = { name = uzb_modifier_middle_path days = -1 }
+		add_primary_culture = cu:uzbek
+		add_primary_culture = cu:tajik
+	}
+}
+
+country_event = {
+	id = uzb_sart.40
+	title = uzb_sart.40.t
+	desc = uzb_sart.40.d
+	icon = "gfx/interface/icons/event_icons/chaos.dds"
+	is_triggered_only = yes
+
+	trigger = {
+		c:UZB ?= THIS
+		NOT = { has_variable = uzb_identity_resolved }
+	}
+
+	immediate = {
+		set_variable = uzb_identity_resolved
+	}
+
+	option = {
+		name = uzb_sart.40.a
+		default_option = yes
+		add_modifier = { name = uzb_modifier_identity_crisis days = 3650 }
+		add_radicals = { culture = cu:uzbek value = 0.30 }
+		add_radicals = { culture = cu:tajik value = 0.30 }
+		if = {
+			limit = { has_technology_researched = nationalism }
+			if = {
+				limit = {
+					check_variable = { name = uzb_identity_tajik_progress value >= var:uzb_identity_uzbek_progress }
+				}
+				start_secession = { culture = cu:tajik state = s:STATE_SAMARQAND }
+				start_secession = { culture = cu:tajik state = s:STATE_BUKHARA }
+			}
+			else = {
+				start_secession = { culture = cu:uzbek state = s:STATE_TOSHKENT }
+				start_secession = { culture = cu:uzbek state = s:STATE_FERGANA }
+				start_secession = { culture = cu:uzbek state = s:STATE_KHIVA }
+			}
+		}
+	}
+}

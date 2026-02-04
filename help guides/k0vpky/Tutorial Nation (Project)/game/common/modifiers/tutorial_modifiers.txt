@@ -1,0 +1,13 @@
+﻿#TUTORIAL: Here we create modifiers, if you wanna see how to use modifiers, then see the Events creation Tutorial
+#TUTORIAL: You need to add this modifier to localization
+#TUTORIAL: Replace tutorial_education_modifier with the name you want to give to your modifier
+tutorial_education_modifier = {
+
+	#TUTORIAL: Here you choose what icon do you wanna give your modifier, see the directory and choose one yourself!
+	#TUTORIAL: See gfx/interface/icons/timed_modifier_icons   @ Then replace modifier_documents_positive.dds with the icon of your choice
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	
+	#Tutorial: Here we add the effects of our modifier
+	#TUTORIAL: See this file to get the effects that can be added to modifiers game\common\modifier_types\00_modifier_types.txt
+	state_education_access_add = 0.2
+}

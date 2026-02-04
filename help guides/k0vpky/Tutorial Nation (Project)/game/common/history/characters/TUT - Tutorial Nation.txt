@@ -1,0 +1,54 @@
+﻿
+#TUTORIAL IMPORTANT: You do not need to create characters, the game already generates them for you. You would only create characters if you want to
+#TUTORIAL IMPORTANT: If you do create a character, you need to add their names to localization, to do so do the following:
+#TUTORIAL IMPORTANT: You can see the tutorial for adding characters to localization here: game\localization\english\zz_tutorial_characters_names_l_english.yml
+
+CHARACTERS = {
+
+	#TUTORIAL Replace TUT with your country's tag
+	c:TUT = {
+	
+		create_character = {
+		
+			#TUTORIAL Replace "Maureen" with the first name of your character
+			#TUTORIAL Replace "Miller" with the last name of your character
+			first_name = "Maureen"
+			last_name = "Miller"
+			
+			#TUTORIAL Change X to (yes\no) to choose whether or not you want this character to be a female (no means the character is a male)
+			female = yes
+			
+			#TUTORIAL Change X to (yes\no) to choose whether or not you want this character to be known as a noble
+			noble = yes
+			
+			#TUTORIAL Change X to (yes\no) to choose whether or not you want this character to be ruler or heir of the country at start of game
+			ruler = yes
+			#heir = no
+			
+			#TUTORIAL Change X to (yes\no) to choose whether or not you want this character to be an interest group leader
+			ig_leader = yes
+			
+			#TUTORIAL Change X to the age you want your character to be at start of game
+			age = 25
+			
+			#TUTORIAL Replace X with one of these (ig_devout, ig_armed_forces, ig_landowners, ig_intelligentsia, ig_petty_bourgeoisie, ig_rural_folk, ig_industrialists)
+			interest_group = ig_landowners
+			
+			#TUTORIAL Replace X with one of the leader ideologies, you can find them here: game\common\ideologies\00_leader_ideologies.txt
+			ideology = ideology_moderate
+			
+			#TUTORIAL Here you can choose the traits of your character
+			#TUTORIAL Replace ALL the traits below with as many traits as you wish from here: game\common\character_traits\personality_traits.txt
+			traits = {
+						romantic charismatic
+			}
+			
+		}
+	}
+}
+
+		#TUTORIAL If the first or last name has more than two words, then you need to use "_" instead of space, see an example:
+		#TUTORIAL Example: ( First name: "Jean Francois" must be entered below as: first_name = "Jean_Francois" )
+		#TUTORIAL Then you need to add it in localization with a space (I added an example in localization, go see it), see the following example:
+		#first_name = "Jean_Francois"
+		#last_name = "Roberge"

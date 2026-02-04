@@ -1,0 +1,74 @@
+#TUTORIAL: When you create a new country, you must assign states to it, and that's what this file is for
+#TUTORIAL: This only explains how to change the ownership \ homelands of already exsiting states, if you want to create a state then see the states creation tutorial
+#TUTORIAL: You only need to create one txt file, call it your mod's name (Example: communitypatch_states.txt, modernday_states.txt)
+#TUTORIAL: Then you need to copy over the state you wanna modify from game\common\history\states\states.txt like the following
+#TUTORIAL: Make sure that the file starts with STATES = { and ends with an }
+#TUTORIAL: All states added here, must be added here as well: game\common\history\pops (See the tutorial there)
+#TUTORIAL: In our case, our Tutorial Nation will own Albania, Bosnia, Montenegro, Southern Serbia, Dalmatia and North Macedonia
+
+STATES = {
+	s:STATE_ALBANIA = {
+		create_state = {
+			#TUTORIAL: Replace TUT with your country's tag
+			country = c:TUT
+			owned_provinces = { x7BE071 xC42EC6 x71C0E0 xD0A061 x5A148F xC771E0 x51A061 x68131C xB77F92 }
+		}
+		
+		add_homeland = albanian
+	}
+	s:STATE_BOSNIA = {
+		create_state = {
+			#TUTORIAL: Replace TUT with your country's tag
+			country = c:TUT
+			owned_provinces = { x5F13FD x9021E0 xAC2DD3 x1121E0 x3F67BA xD021A0 x23D67C x19AF6A x51A0A0 xD0A0A0 xDA817B x7C904A xA40356 x50209F x3B7D2B x1E7362 xF06101 }
+		}
+		
+		#TUTORIAL: Here you get to choose the cultures you want this state to be a homeland for
+		#TUTORIAL: You can find cultures names in game\common\cultures\00_cultures.txt
+		add_homeland = bosniak
+		add_homeland = serb
+	}
+	s:STATE_NORTH_MACEDONIA = {
+		create_state = {
+			#TUTORIAL: Replace TUT with your country's tag
+			country = c:TUT
+			owned_provinces = { x11E0A0 x7CF777 x419E6F x800FE7 x596DE2 x494421 xE0118B }
+		}
+		
+		#TUTORIAL: Here you get to choose the cultures you want this state to be a homeland for
+		#TUTORIAL: You can find cultures names in game\common\cultures\00_cultures.txt
+		add_homeland = greek
+		add_homeland = bulgarian
+		add_homeland = turkish
+		add_homeland = albanian
+	}
+	s:STATE_MONTENEGRO = {
+		create_state = {
+			country = c:TUT
+			owned_provinces = { xF5F6C2 xA12F82 x446E84 x8C6292 }
+		}
+		
+		add_homeland = serb
+		add_homeland = albanian
+	}
+	s:STATE_DALMATIA = {
+		create_state = {
+			country = c:TUT
+			owned_provinces = { xF9421B xEFA0C0 x11A0E0 x90A0E0 }
+		}
+		
+		add_homeland = croat
+		add_homeland = serb
+	}
+	s:STATE_SOUTHERN_SERBIA = {
+		create_state = {
+			country = c:TUT
+			owned_provinces = { xA5D3A9 x9DFFAF x334B53 xD021E0 x18B761 x4773E6 xB852BB xD02161 x45E06A x62A730 xAC083C }
+		}
+		
+		add_homeland = serb
+		add_homeland = turkish
+		add_homeland = albanian
+		add_claim = c:SER
+	}
+}

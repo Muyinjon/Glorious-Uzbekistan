@@ -40,4 +40,42 @@ uzb_modifier_silk_road_cultural_legacy = {
 	country_trade_goods_value_mult = 0.05
 }
 
+uzb_modifier_identity_crisis = {
+	country_authority_mult = -0.25
+	country_tax_capacity_mult = -0.20
+}
+
+uzb_modifier_uzbek_primacy = {
+	country_army_offense_mult = 0.15
+	country_army_defense_mult = 0.15
+}
+
+uzb_modifier_tajik_primacy = {
+	country_prestige_mult = 0.20
+	country_innovation_mult = 0.10
+}
+
+uzb_modifier_middle_path = {
+	country_radicals_from_sol_change_mult = -0.20
+	country_mass_migration_attraction_mult = 0.10
+}
+
+uzb_modifier_bazaar_mediation = {
+	country_bureaucracy_add = -50
+}
+
+uzb_modifier_jadid_turkic = {
+	state_education_access_add = 0.10
+	country_tech_spread_mult = 0.05
+}
+
+uzb_modifier_jadid_persian = {
+	country_prestige_mult = 0.15
+	ig_intelligentsia_attraction_mult = 0.10
+}
+
+uzb_modifier_jadid_bilingual = {
+	state_education_access_add = 0.05
+	state_turmoil_mult = -0.10
+}
 

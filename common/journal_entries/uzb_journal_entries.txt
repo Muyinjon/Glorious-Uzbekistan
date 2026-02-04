@@ -1,6 +1,6 @@
 je_uzb_silicon_and_silk_road = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/event_icons/trade.dds"
+	icon = "gfx/interface/icons/goods_icons/prestige_goods/suzhou_silk_prestige.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
@@ -148,7 +148,7 @@ je_uzb_silicon_and_silk_road = {
 
 je_uzb_ulughbek_scholars = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/event_icons/industry.dds"
+	icon = "gfx/interface/icons/generic_icons/innovation.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
@@ -210,7 +210,7 @@ je_uzb_ulughbek_scholars = {
 
 je_uzb_amir_temur_army = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/event_icons/victory.dds"
+	icon = "gfx/interface/icons/generic_icons/mobilize_icon_single.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
@@ -303,7 +303,7 @@ je_uzb_amir_temur_army = {
 
 je_uzb_amir_temur_babur_claims = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/objectives/economic_dominance.dds"
+	icon = "gfx/interface/outliner/war_button_icon.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
@@ -359,7 +359,7 @@ je_uzb_amir_temur_babur_claims = {
 
 je_uzb_golden_era = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/event_icons/agriculture.dds"
+	icon = "gfx/interface/icons/goods_icons/prestige_goods/como_silk_prestige.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
@@ -411,7 +411,7 @@ je_uzb_golden_era = {
 
 je_uzb_colonial_frontiers = {
 	should_be_pinned_by_default = yes
-	icon = "gfx/interface/icons/event_icons/trade.dds"
+	icon = "gfx/interface/icons/state_status_icons/colony.dds"
 	group = je_group_objectives
 
 	is_shown_in_lobby = { c:UZB ?= THIS }
@@ -458,6 +458,115 @@ je_uzb_colonial_frontiers = {
 			trigger_event = {
 				id = uzb_journal_rewards.5
 				popup = no
+			}
+		}
+	}
+}
+
+je_uzbekistan_identity = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/event_icons/chaos.dds"
+	group = je_group_objectives
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = { c:UZB ?= THIS }
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+
+	immediate = {
+		if = {
+			limit = { NOT = { has_variable = identity_timer } }
+			set_variable = { name = identity_timer value = 7300 }
+		}
+		if = {
+			limit = { NOT = { has_variable = uzb_identity_uzbek_progress } }
+			set_variable = { name = uzb_identity_uzbek_progress value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = uzb_identity_tajik_progress } }
+			set_variable = { name = uzb_identity_tajik_progress value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = uzb_identity_middle_progress } }
+			set_variable = { name = uzb_identity_middle_progress value = 0 }
+		}
+	}
+
+	complete = {
+		has_variable = uzb_identity_resolved
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = { NOT = { has_variable = uzb_identity_resolved } }
+				if = {
+					limit = { check_variable = { name = identity_timer value > 0 } }
+					change_variable = { name = identity_timer add = -30 }
+				}
+
+				if = {
+					limit = { check_variable = { name = uzb_identity_uzbek_progress value >= 100 } }
+					trigger_event = { id = uzb_sart.10 }
+				}
+				if = {
+					limit = { check_variable = { name = uzb_identity_tajik_progress value >= 100 } }
+					trigger_event = { id = uzb_sart.20 }
+				}
+				if = {
+					limit = { check_variable = { name = uzb_identity_middle_progress value >= 100 } }
+					if = {
+						limit = {
+							OR = {
+								has_law = law_multiculturalism
+								has_law = law_cultural_exclusion
+							}
+						}
+						trigger_event = { id = uzb_sart.30 }
+					}
+					else = {
+						trigger_event = { id = uzb_sart.40 }
+					}
+				}
+
+				if = {
+					limit = { check_variable = { name = identity_timer value <= 0 } }
+					if = {
+						limit = {
+							check_variable = { name = uzb_identity_uzbek_progress value > var:uzb_identity_tajik_progress }
+							check_variable = { name = uzb_identity_uzbek_progress value > var:uzb_identity_middle_progress }
+						}
+						trigger_event = { id = uzb_sart.10 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { name = uzb_identity_tajik_progress value > var:uzb_identity_uzbek_progress }
+							check_variable = { name = uzb_identity_tajik_progress value > var:uzb_identity_middle_progress }
+						}
+						trigger_event = { id = uzb_sart.20 }
+					}
+					else_if = {
+						limit = {
+							check_variable = { name = uzb_identity_middle_progress value > var:uzb_identity_uzbek_progress }
+							check_variable = { name = uzb_identity_middle_progress value > var:uzb_identity_tajik_progress }
+						}
+						if = {
+							limit = {
+								OR = {
+									has_law = law_multiculturalism
+									has_law = law_cultural_exclusion
+								}
+							}
+							trigger_event = { id = uzb_sart.30 }
+						}
+						else = {
+							trigger_event = { id = uzb_sart.40 }
+						}
+					}
+					else = {
+						trigger_event = { id = uzb_sart.40 }
+					}
+				}
 			}
 		}
 	}

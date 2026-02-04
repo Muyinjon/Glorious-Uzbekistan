@@ -1,0 +1,7 @@
+﻿l_english:
+ #TUTORIAL: Replace the text between the strings (" ") with the journal entry's name\title
+ je_tutorial_great_wait:0 "The Great Wait"
+ #TUTORIAL: Replace the text between the strings (" ") with the journal entry's goal
+ je_tutorial_great_wait_goal:0 "We waited patiently enough"
+ #TUTORIAL: Replace the text between the strings (" ") with the journal entry's reason\description
+ je_tutorial_great_wait_reason:0 "We are still learning, and learning takes time. We must wait patiently!"

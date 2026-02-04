@@ -1,0 +1,23 @@
+Hi,
+
+I'm Imperialist, the author of this modding guide, creator of vic3wiki.com and the author of the leaked version on uknowncheats, see the end of the document for contact info.
+
+So in this flag tutorial i'm going to show you how to create a flag that has 4 different colors in it, flags need a tutorial for their own because you can't simply add flags in the game, the engine must craft them.
+
+First step is, you need to identify and have the flag you want to generate in the game. Look at it, identify how many colors and what are the colors. So me, i want to recreate modren day Libya's flag in Victoria 3, you can see Libya's flag in Media folder, that's in the same folder as this document, it's called "Media". Make sure to resize your flag target to 768x512.
+
+So Libya' flag has four colors, which are: Red, black, green and white.
+
+We need to choose one color to be the background, then the other three colors must be crafted. I'm going to choose black to be the background because it's in the middle and it's easier to recreate. In this case, you would type "black" in the background color field (See country creation tutorial, game\common\coat_of_arms\coat_of_arms\zz_tutorial_coat_of_arms.txt).
+
+After you chose the background color, now you need to recreate the other three colors in 3 separate dds files, which are (Red, green and white). So in order to recreate the red color, you need to create a dds file or copy one that already is in game files and just delete what's in it, then you need to recreate the space of the flag that is colored in red in that dds file, and you need to paint it in blue. See DDS Files\libya_tutorial_red.dds to see how i did it.
+
+Then you do the same thing for every other color, if you look in DDS Files, you'll see that i created a different DDS file for every area in the flag that has a different color, and i painted it blue. MAKE SURE TO PAINT IT BLUE.
+
+Once you got your DDS files prepared, now you need to add them in this gamd directory: game\gfx\coat_of_arms\colored_emblems. See this tutorial's game file for an example.
+
+Then you would need to craft these colors and generate the flag, for that you can see the "game" folder in this tutorial to see how i crafted the flag.
+
+For any questions or any help you might require, do not hesitate to contact me through discord: Imperialist#4713.
+
+* Do not send any lawsuit notices.

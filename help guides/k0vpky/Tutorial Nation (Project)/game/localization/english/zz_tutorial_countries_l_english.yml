@@ -1,0 +1,7 @@
+﻿l_english:
+ #TUTORIAL Replace TUT with your country's tag
+ #TUTORIAL Replace the text between the strings with your country's name, it's currently "Tutorial Nation"
+ TUT:0 "Tutorial Nation"
+ #TUTORIAL Replace the text between the strings with your people's adjective, it's currently "Tutorialist"
+ #TUTORIAL For example, if this was USA we would replace it with "American", Britain as "British", Ottoman Empire as "Ottoman" or "Turkish"
+ TUT_ADJ:0 "Tutorialist"

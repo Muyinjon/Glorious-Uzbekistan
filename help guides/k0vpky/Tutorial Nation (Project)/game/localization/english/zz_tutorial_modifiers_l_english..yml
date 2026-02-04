@@ -1,0 +1,5 @@
+﻿l_english:
+ #TUTORIAL: Replace tutorial_education with your modifier's name
+ #TUTORIAL: Replace the text between the strings (" ") with the modifier's name, then the modifier's description
+ tutorial_education_modifier:0 "Tutorials Education"
+ tutorial_education_modifier_desc:0 "Tutorials are officially a main education tool, making our education sector even more efficient."

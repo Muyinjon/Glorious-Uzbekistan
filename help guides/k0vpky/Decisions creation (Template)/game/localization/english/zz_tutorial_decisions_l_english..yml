@@ -1,0 +1,5 @@
+﻿l_english:
+ #TUTORIAL: Replace tutorial_decision with your decision's name
+ #TUTORIAL: Replace the text between the strings (" ") with the decision's name, then the decision's description
+ tutorial_education_decision:0 "Enforce Tutorials in schools"
+ tutorial_education_decision_desc:0 "It is officially the time we make Tutorials a main part of our education, our children must learn our grandfathers Tutorials."

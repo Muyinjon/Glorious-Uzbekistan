@@ -1,0 +1,14 @@
+﻿l_english:
+ #TUTORIAL: t means the title of the decision
+ tutorial_events.1.t:0 "Tutorials are now a part of the Education sector"
+ #TUTORIAL: d means the description of the decision
+ tutorial_events.1.d:0 "The latest addition of Tutorials to the education sector changed many people's lives. Tutorials now make people more interested in learning and reading."
+ #TUTORIAL: a,b,c,d,e refer to the options available to the decision, maximum 5 (a,b,c,d,e)
+ tutorial_events.1.a:0 "Tutorials for everyone!"
+ #TUTORIAL: f means the flavor of the decision, which is the text that is below the description, mostly used for quotes
+ tutorial_events.1.f:0 "“Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.”"
+ 
+ tutorial_events.2.t:0 "The Great Wait has come to an end"
+ tutorial_events.2.d:0 "Our tutorialist journal entry ended, the timer is up, and our great wait is over. Today, all Tutorialists celebrate the end of an era."
+ tutorial_events.2.a:0 "Patience is key"
+ tutorial_events.2.f:0 "“Patience is not the ability to wait, but the ability to keep a good attitude while waiting.”"

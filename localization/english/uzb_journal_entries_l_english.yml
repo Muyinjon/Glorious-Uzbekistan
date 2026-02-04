@@ -2,12 +2,17 @@
  # Journal Entry: Revitalizing the Silk Road
  je_uzb_silicon_and_silk_road:0 "Revitalizing the Silk Road"
  je_uzb_silicon_and_silk_road_reason:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and trade. Build silk plantations in Samarqand, establish textile mills in our historic trading cities, and restore trade centers to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy."
- 
+
  # Tooltips for completion requirements
  uzb_je_silicon_and_silk_road_tt_silk:0 "Build at least 8 levels of silk plantations in Samarqand"
  uzb_je_silicon_and_silk_road_tt_textile:0 "Build at least 10 levels of textile mills in Samarqand or Bukhara"
  uzb_je_silicon_and_silk_road_tt_trade:0 "Build at least 5 levels of trade centers in Samarqand"
  uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a GDP of Â£10.0M"
- 
+
  # Progress description
  je_uzb_silicon_and_silk_road_progress:0 "Working toward a GDP of Â£10.0M"
+
+ # Journal Entry: Sart Dilemma
+ je_uzbekistan_identity:0 "Sart Dilemma"
+ je_uzbekistan_identity_reason:0 "Uzbekistan begins with two primary cultures, Uzbek and Tajik. The state must define itself within twenty years, resolving the Sart dilemma through Turkic primacy, Persian primacy, or a carefully mediated middle path."
+ je_uzbekistan_identity_lobby:0 "Sart Dilemma"

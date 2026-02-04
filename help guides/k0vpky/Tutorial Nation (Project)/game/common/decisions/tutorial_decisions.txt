@@ -1,0 +1,36 @@
+#TUTORIAL: Replace tutorial_education_decision with the name you want to give to your decision
+tutorial_education_decision = {
+
+	#TUTORIAL: Here we write the requirements to show the decision
+	is_shown = {
+		#TUTORIAL: Here we choose which country\countries do we want the decision to show to, replace TUT with the country tag
+		this = c:TUT
+		
+		#TUTORIAL: Here we need to check whether this decision has been taken or not yet
+		NOT = { has_variable = tutorial_education_decision_taken }
+	}
+
+	#TUTORIAL: Here you need to enter the decision requirements, i suggest you take a look at vanilla decisions and events to get triggers
+	possible = {
+		#TUTORIAL: I entered below that the decision requirements will be fulfilled if GDP is equal or above 800k
+		GDP >= 800000
+	}
+	
+	#TUTORIAL: Here we enter the effects of taking that decision
+	when_taken = {
+		#TUTORIAL: We write the effects here, for example i want to trigger an event that gives an education access modifier
+		#TUTORIAL: See the Events creation tutorial if you wanna know how to create events
+		trigger_event = {
+			id = tutorial_events.1
+			popup = yes
+		}
+		
+		#TUTORIAL: We need to set a variable when the decision is taken, that way it only fires once
+		set_variable = {
+			name = tutorial_education_decision_taken
+		}
+		
+		#TUTORIAL: I suggest you read through vanilla events and decisions for other effects
+		
+	}
+}

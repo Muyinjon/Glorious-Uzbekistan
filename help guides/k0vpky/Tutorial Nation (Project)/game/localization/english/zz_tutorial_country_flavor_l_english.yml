@@ -1,0 +1,6 @@
+﻿l_english:
+ #TUTORIAL: Note: This is not required at all, you decide whether you want that or not
+ #TUTORIAL: Here you can write a description for your nation, that's the text that appears in the description when you select a nation to play as
+ #TUTORIAL: Replace TUT with your nation's country tag
+ #TUTORIAL: Replace the text between the strings (" ") with the description you want
+ TUT_FLAVOR_TEXT:0 "This is the description of the glorious Tutorial Nation! Long live Tutorialists and their great woman President!"

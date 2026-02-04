@@ -10,7 +10,7 @@
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 5
+						levels = 4
 					}
 				}
 			}
@@ -22,32 +22,11 @@
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 5
+						levels = 3
 					}
 				}
 			}
-			create_building = {
-				building = "building_iron_mine"
-				reserves = 1
-				activate_production_methods = { }
-				add_ownership = {
-					country = {
-						country = c:UZB
-						levels = 1
-					}
-				}
-			}
-			create_building = {
-				building = "building_coal_mine"
-				reserves = 1
-				activate_production_methods = { }
-				add_ownership = {
-					country = {
-						country = c:UZB
-						levels = 1
-					}
-				}
-			}
+
 			create_building = {
 				building = "building_textile_mill"
 				reserves = 1
@@ -58,6 +37,18 @@
 						levels = 1
 					}
 				}
-			}}
+			}
+		
+		create_building = {
+			building= "building_government_administration"
+			add_ownership = {
+				country = {
+					country = c:UZB
+					levels = 1
+				}
+			}
+		}
 	}
+}
+
 }
