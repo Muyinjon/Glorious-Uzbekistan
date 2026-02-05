@@ -5,26 +5,40 @@
  uzb_modifier_silk_road_cultural_legacy:0 "Silk Road Cultural Legacy"
  uzb_modifier_silk_road_cultural_legacy_desc:0 "Uzbekistan celebrates its rich cultural heritage as the heart of the Silk Road, attracting scholars, artists, and merchants from across the world."
 
-uzb_modifier_identity_crisis:0 "Identity Crisis"
-uzb_modifier_identity_crisis_desc:0 "The state cannot agree on a national identity, and the administration fractures under competing narratives."
+ uzb_modifier_identity_crisis:0 "Identity Crisis"
+ uzb_modifier_identity_crisis_desc:0 "The state cannot agree on a national identity, and the administration fractures under competing narratives."
 
-uzb_modifier_uzbek_primacy:0 "Uzbek Primacy"
-uzb_modifier_uzbek_primacy_desc:0 "A singular Turkic identity is enforced at the heart of the state, bringing martial confidence and unity."
+ uzb_modifier_uzbek_primacy:0 "Uzbek Primacy"
+ uzb_modifier_uzbek_primacy_desc:0 "A singular Turkic identity is enforced at the heart of the state, bringing martial confidence and unity."
 
-uzb_modifier_tajik_primacy:0 "Tajik Primacy"
-uzb_modifier_tajik_primacy_desc:0 "A Persian literary revival reshapes the nation around the Tajik cultural tradition."
+ uzb_modifier_tajik_primacy:0 "Tajik Primacy"
+ uzb_modifier_tajik_primacy_desc:0 "A Persian literary revival reshapes the nation around the Tajik cultural tradition."
 
-uzb_modifier_middle_path:0 "Central Asian Harmony"
-uzb_modifier_middle_path_desc:0 "Uzbek and Tajik communities are recognized as equal partners in a shared national project."
+ uzb_modifier_middle_path:0 "Central Asian Harmony"
+ uzb_modifier_middle_path_desc:0 "Uzbek and Tajik communities are recognized as equal partners in a shared national project."
 
-uzb_modifier_bazaar_mediation:0 "Bazaar Mediation"
-uzb_modifier_bazaar_mediation_desc:0 "Administrative resources are diverted to mediate language disputes in the markets."
+ uzb_modifier_bazaar_mediation:0 "Bazaar Mediation"
+ uzb_modifier_bazaar_mediation_desc:0 "Administrative resources are diverted to mediate language disputes in the markets."
 
-uzb_modifier_jadid_turkic:0 "Jadid Turkic Curriculum"
-uzb_modifier_jadid_turkic_desc:0 "Schools emphasize Chagatai Turkic literacy and modern science."
+ uzb_modifier_jadid_turkic:0 "Jadid Turkic Curriculum"
+ uzb_modifier_jadid_turkic_desc:0 "Schools emphasize Chagatai Turkic literacy and modern science."
 
-uzb_modifier_jadid_persian:0 "Persian Literary Standard"
-uzb_modifier_jadid_persian_desc:0 "Classical Persian education bolsters prestige and the urban literati."
+ uzb_modifier_jadid_persian:0 "Persian Literary Standard"
+ uzb_modifier_jadid_persian_desc:0 "Classical Persian education bolsters prestige and the urban literati."
 
-uzb_modifier_jadid_bilingual:0 "Bilingual Modernism"
-uzb_modifier_jadid_bilingual_desc:0 "Both languages are taught side-by-side in a modern curriculum."
+ uzb_modifier_jadid_bilingual:0 "Bilingual Modernism"
+ uzb_modifier_jadid_bilingual_desc:0 "Both languages are taught side-by-side in a modern curriculum."
+
+ uzb_modifier_base_bureaucracy:1"Administrative Apparatus"
+ uzb_modifier_base_bureaucracy_desc:0 "A reinforced bureaucracy provides additional administrative capacity."
+
+ uzb_modifier_ulughbek_scholars:0 "Ulughbek's Scholars"
+ uzb_modifier_ulughbek_scholars_desc:0 "A renewed culture of learning and astronomy strengthens Uzbekistan's intellectual foundations."
+ uzb_modifier_temur_army:0 "Amir Temur Army"
+ uzb_modifier_temur_army_desc:0 "Military reforms restore discipline, prestige, and strategic confidence."
+ uzb_modifier_timurid_claims:0 "Timurid Claims"
+ uzb_modifier_timurid_claims_desc:0 "The reconquest of historic lands elevates Uzbekistan's standing and economic ambition."
+ uzb_modifier_golden_era:0 "Timurid Golden Era"
+ uzb_modifier_golden_era_desc:0 "Prosperity, stability, and cultural vitality mark a new golden age."
+ uzb_modifier_colonial_frontiers:0 "Colonial Frontiers"
+ uzb_modifier_colonial_frontiers_desc:0 "Organized colonial policy brings new markets and population growth."

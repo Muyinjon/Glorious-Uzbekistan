@@ -45,9 +45,13 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 7
+						levels = 1
 					}
 				}
-			}}
+			}
+
+		
+		
+		}
 	}
 }

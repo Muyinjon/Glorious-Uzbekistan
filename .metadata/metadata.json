@@ -5,6 +5,7 @@
     "supported_game_version": "",
     "short_description": "",
     "tags": [],
+    "thumbnail" : "thumbnail.png",
     "relationships": [],
     "game_custom_data": {
         "multiplayer_synchronized": true

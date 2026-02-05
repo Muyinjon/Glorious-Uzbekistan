@@ -22,23 +22,7 @@ BUILDINGS = {
 					}
 				}
 			}
-			create_building = {
-				building = "building_university"
-				reserves = 1
-				activate_production_methods = { }
-				add_ownership = { country = { country = c:UZB levels = 1 } }
-			}
-			create_building = {
-				building = "building_sulfur_mine"
-				reserves = 1
-				activate_production_methods = { }
-				add_ownership = {
-					country = {
-						country = c:UZB
-						levels = 1
-					}
-				}
-			}
+
 			create_building = {
 				building = "building_livestock_ranch"
 				reserves = 1
@@ -60,6 +44,27 @@ BUILDINGS = {
 				}
 			}
 		}
+		create_building = {
+			building = "building_logging_camp"
+			reserves = 1
+			activate_production_methods = { }
+			add_ownership = {
+				country = {
+					country = c:UZB
+					levels = 1
+				}
+			}
+		}
+		create_building = {
+			building = "building_construction_sector"
+			reserves = 1
+			activate_production_methods = { }
+			add_ownership = {
+				country = {
+					country = c:UZB
+					levels = 1
+				}
+			}
 		}
 	}
-}
+}}

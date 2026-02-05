@@ -3,14 +3,14 @@
  uzb_silk_road_silk_progress_title:0 "Silk Production Flourishes"
  uzb_silk_road_silk_progress_desc:0 "Our silk plantations in Samarqand have reached 8 levels. The ancient art of sericulture is being revived, and the finest silk flows from the heart of the Silk Road once more."
  uzb_silk_road_progress_ok:0 "The Silk Road lives again!"
- 
+
  uzb_silk_road_textile_progress_title:0 "Textile Industry Expands"
  uzb_silk_road_textile_progress_desc:0 "Our textile mills have reached 10 levels. Silk and cotton are being transformed into fine textiles, ready to travel the trade routes that made Central Asia famous."
  uzb_silk_road_textile_progress_ok:0 "We weave the future!"
- 
+
  uzb_silk_road_trade_progress_title:0 "Trade Centers Restored"
  uzb_silk_road_trade_progress_desc:0 "Our trade centers in Samarqand have reached 5 levels. The caravanserais are bustling once more, and merchants from across the world come to trade in our markets."
- 
+
  # Completion Event - Main
  uzb_silk_road_complete_title:0 "The Silk Road Reborn"
  uzb_silk_road_complete_desc:0 "Uzbekistan has successfully revitalized the Silk Road! Our silk plantations produce the finest silk, our textile mills craft beautiful fabrics, and our trade centers welcome merchants from across the world. The ancient commercial legacy of the Timurid Empire has been restored, and Uzbekistan once again stands as the commercial heart of Central Asia. The world recognizes our greatness as the true successor to the Silk Road's golden age.\n\nHow shall we celebrate this achievement?"
@@ -20,7 +20,7 @@
  uzb_silk_road_complete_option_industrial_desc:0 "Modernize our textile mills with advanced machinery, increasing production capacity and efficiency."
  uzb_silk_road_complete_option_cultural:0 "Celebrate Our Cultural Legacy"
  uzb_silk_road_complete_option_cultural_desc:0 "Honor the artistic and cultural traditions of the Silk Road, enhancing our prestige and soft power."
- 
+
  # Follow-up Events
  uzb_silk_road_followup_commercial_title:0 "The Great Caravanserai"
  uzb_silk_road_followup_commercial_desc:0 "By focusing on commerce, Samarqand has become the greatest trading hub in Central Asia. Merchants from Europe, India, and China flock to our markets, and the caravanserais overflow with goods from across the known world. Our trade routes now span continents, and Uzbekistan's name is synonymous with prosperity and opportunity."
@@ -30,46 +30,71 @@
  uzb_silk_road_followup_cultural_desc:0 "By celebrating our cultural heritage, Uzbekistan has become a beacon of art, learning, and refinement. Scholars and artists from across the world visit Samarqand to study our traditions, and our prestige has reached new heights. The Timurid Empire's golden age has returned, and all recognize Uzbekistan as its true successor."
  uzb_silk_road_followup_ok:0 "Uzbekistan stands proud!"
 
-# SART Dilemma Events
-uzb_sart.1.t:0 "The Language of the Bazaar"
-uzb_sart.1.d:0 "A dispute in the Samarkand bazaar between a Turkic-speaking merchant and a Persian-speaking clerk erupts into a riot. The governor demands a decree on which language has precedence in commercial contracts."
-uzb_sart.1.a:0 "Favor Turkic contracts"
-uzb_sart.1.b:0 "Favor Persian contracts"
-uzb_sart.1.c:0 "Mediate and standardize both"
+ # SART Dilemma Events
+ uzb_sart.1.t:0 "The Language of the Bazaar"
+ uzb_sart.1.d:0 "A dispute in the Samarkand bazaar between a Turkic-speaking merchant and a Persian-speaking clerk erupts into a riot. The governor demands a decree on which language has precedence in commercial contracts."
+ uzb_sart.1.a:0 "Favor Turkic contracts"
+ uzb_sart.1.b:0 "Favor Persian contracts"
+ uzb_sart.1.c:0 "Mediate and standardize both"
 
-uzb_sart.2.t:0 "The Jadid Reformers"
-uzb_sart.2.d:0 "Modernist teachers propose a standardized curriculum to raise literacy. The choice of script and language will define our cultural orientation for generations."
-uzb_sart.2.a:0 "A Turkic-first curriculum"
-uzb_sart.2.b:0 "A Persian literary standard"
-uzb_sart.2.c:0 "Bilingual modernism"
+ uzb_sart.2.t:0 "The Jadid Reformers"
+ uzb_sart.2.d:0 "Modernist teachers propose a standardized curriculum to raise literacy. The choice of script and language will define our cultural orientation for generations."
+ uzb_sart.2.a:0 "A Turkic-first curriculum"
+ uzb_sart.2.b:0 "A Persian literary standard"
+ uzb_sart.2.c:0 "Bilingual modernism"
 
-uzb_sart.3.t:0 "The Tax on the Sedentary"
-uzb_sart.3.d:0 "To modernize the treasury, tax collectors demand a rigid definition of who is \"sedentary\" and who is \"tribal.\" The decision will shape the identity of the urban population."
-uzb_sart.3.a:0 "Tax by language"
-uzb_sart.3.b:0 "Tax by lifestyle"
+ uzb_sart.3.t:0 "The Tax on the Sedentary"
+ uzb_sart.3.d:0 "To modernize the treasury, tax collectors demand a rigid definition of who is \"sedentary\" and who is \"tribal.\" The decision will shape the identity of the urban population."
+ uzb_sart.3.a:0 "Tax by language"
+ uzb_sart.3.b:0 "Tax by lifestyle"
 
-uzb_sart.4.t:0 "The Judgment of Two Languages"
-uzb_sart.4.d:0 "Inspired by Ali-Shir Nava'i, a grand debate unfolds at court: is Turkic the language of power, or is Persian the language of the soul?"
-uzb_sart.4.a:0 "Turkic is the language of power"
-uzb_sart.4.b:0 "Persian is the language of the soul"
+ uzb_sart.4.t:0 "The Judgment of Two Languages"
+ uzb_sart.4.d:0 "Inspired by Ali-Shir Nava'i, a grand debate unfolds at court: is Turkic the language of power, or is Persian the language of the soul?"
+ uzb_sart.4.a:0 "Turkic is the language of power"
+ uzb_sart.4.b:0 "Persian is the language of the soul"
 
-uzb_sart.5.t:0 "The Call of Turan"
-uzb_sart.5.d:0 "Agitators from the west claim that \"Tajik\" is merely a label for Turkic people who have forgotten their mother tongue."
-uzb_sart.5.a:0 "Embrace Pan-Turkism"
-uzb_sart.5.b:0 "Denounce the foreigners"
+ uzb_sart.5.t:0 "The Call of Turan"
+ uzb_sart.5.d:0 "Agitators from the west claim that \"Tajik\" is merely a label for Turkic people who have forgotten their mother tongue."
+ uzb_sart.5.a:0 "Embrace Pan-Turkism"
+ uzb_sart.5.b:0 "Denounce the foreigners"
 
-uzb_sart.10.t:0 "Uzbek Primacy"
-uzb_sart.10.d:0 "A singular Turkic identity is proclaimed. The state aligns itself with Uzbek primacy and the martial tradition of the steppe."
-uzb_sart.10.a:0 "We are the Lion of Turan"
+ # Character Events
+ uzb_characters.1.t:0 "A Volunteer for the Army"
+ uzb_character.1.d:0 "Muyinjon Turobov steps forward and offers his service as a general. He claims to be ready to reorganize and lead our forces."
+ uzb_character.1.a:0 "Appoint him as a general."
 
-uzb_sart.20.t:0 "Tajik Primacy"
-uzb_sart.20.d:0 "A Persian renaissance takes hold. The state aligns itself with the classical literary tradition and Tajik primacy."
-uzb_sart.20.a:0 "Let the Persian renaissance begin"
+ # Journal Reward Events
+ uzb_journal_rewards.1.t:0 "Reward Granted"
+ uzb_journal_rewards.1.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.1.a:0 "Continue"
+ uzb_journal_rewards.2.t:0 "Reward Granted"
+ uzb_journal_rewards.2.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.2.a:0 "Continue"
+ uzb_journal_rewards.3.t:0 "Reward Granted"
+ uzb_journal_rewards.3.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.3.a:0 "Continue"
+ uzb_journal_rewards.4.t:0 "Reward Granted"
+ uzb_journal_rewards.4.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.4.a:0 "Continue"
+ uzb_journal_rewards.5.t:0 "Reward Granted"
+ uzb_journal_rewards.5.d:0 "A new national modifier has been applied."
+ uzb_journal_rewards.5.a:0 "Continue"
+ uzb_journal_rewards.6.t:0 "The Army of Amir Temur"
+ uzb_journal_rewards.6.d:0 "The military machine of Amir Temur has been forged anew. With expanded barracks, modern arms production, and artillery foundries established, Uzbekistan now commands a professional army worthy of the Timurid legacy. The discipline, prestige, and strategic confidence of the great conqueror's forces have been restored."
+ uzb_journal_rewards.6.a:0 "The Lion of Turan rises again"
 
-uzb_sart.30.t:0 "Central Asian Harmony"
-uzb_sart.30.d:0 "The nation embraces a balanced identity. Uzbek and Tajik communities are recognized as equal partners within the state."
-uzb_sart.30.a:0 "Unity in diversity"
+ uzb_sart.10.t:0 "Uzbek Primacy"
+ uzb_sart.10.d:0 "A singular Turkic identity is proclaimed. The state aligns itself with Uzbek primacy and the martial tradition of the steppe."
+ uzb_sart.10.a:0 "We are the Lion of Turan"
 
-uzb_sart.40.t:0 "A House Divided"
-uzb_sart.40.d:0 "The state fails to resolve the identity question in time. Authority collapses as rival narratives fracture the nation."
-uzb_sart.40.a:0 "The crisis deepens"
+ uzb_sart.20.t:0 "Tajik Primacy"
+ uzb_sart.20.d:0 "A Persian renaissance takes hold. The state aligns itself with the classical literary tradition and Tajik primacy."
+ uzb_sart.20.a:0 "Let the Persian renaissance begin"
+
+ uzb_sart.30.t:0 "Central Asian Harmony"
+ uzb_sart.30.d:0 "The nation embraces a balanced identity. Uzbek and Tajik communities are recognized as equal partners within the state."
+ uzb_sart.30.a:0 "Unity in diversity"
+
+ uzb_sart.40.t:0 "A House Divided"
+ uzb_sart.40.d:0 "The state fails to resolve the identity question in time. Authority collapses as rival narratives fracture the nation."
+ uzb_sart.40.a:0 "The crisis deepens"

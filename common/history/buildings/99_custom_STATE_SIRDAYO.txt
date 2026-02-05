@@ -39,7 +39,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 5
+
 					}
 				}
 			}
@@ -50,9 +50,21 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 5
+					
 					}
 				}
-			}}
+			}
+		create_building = {
+			building = "building_logging_camp"
+			reserves = 1
+			activate_production_methods = { }
+			add_ownership = {
+				country = {
+					country = c:UZB
+					levels = 1
+				}
+			}
+		}
+		}
 	}
 }

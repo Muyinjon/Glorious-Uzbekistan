@@ -1,0 +1,84 @@
+je_uzb_amir_temur_army = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/generic_icons/mobilize_icon_single.dds"
+	group = je_group_objectives
+
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = { c:UZB ?= THIS }
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+
+	complete = {
+		# 30 standing battalions via barracks levels
+		country_has_building_group_levels = {
+			type = bg:bg_army
+			value >= 30
+		}
+		# 2+ arms industries
+		country_has_building_type_levels = {
+			target = bt:building_arms_industry
+			value >= 2
+		}
+		# 2+ artillery foundries
+		country_has_building_type_levels = {
+			target = bt:building_artillery_foundry
+			value >= 2
+		}
+	}
+	on_complete = {
+
+		custom_tooltip = uzb_je_temur_army_reward_tt
+		
+		show_as_tooltip = {
+			s:STATE_SAMARQAND = { add_claim = ROOT }
+			s:STATE_BUKHARA = { add_claim = ROOT }
+			s:STATE_TOSHKENT = { add_claim = ROOT }
+			s:STATE_FERGANA = { add_claim = ROOT }
+			s:STATE_KHIVA = { add_claim = ROOT }
+			s:STATE_FARS = { add_claim = ROOT }
+			s:STATE_ISFAHAN = { add_claim = ROOT }
+			s:STATE_KHORASAN = { add_claim = ROOT }
+			s:STATE_HERAT = { add_claim = ROOT }
+			s:STATE_KABUL = { add_claim = ROOT }
+			s:STATE_DELHI = { add_claim = ROOT }
+			s:STATE_AGRA = { add_claim = ROOT }
+			s:STATE_PUNJAB = { add_claim = ROOT }
+			s:STATE_SINDH = { add_claim = ROOT }
+			s:STATE_GUJARAT = { add_claim = ROOT }
+			s:STATE_HYDERABAD = { add_claim = ROOT }
+			s:STATE_KASHMIR = { add_claim = ROOT }
+			s:STATE_MERZ = { add_claim = ROOT }
+			s:STATE_SYRDARYA = { add_claim = ROOT }
+			s:STATE_TAJIKISTAN = { add_claim = ROOT }
+		}
+		hidden_effect = {
+			
+			trigger_event = {
+				id = uzb_journal_rewards.6
+				popup = yes
+			}
+			s:STATE_SAMARQAND = { add_claim = ROOT }
+			s:STATE_BUKHARA = { add_claim = ROOT }
+			s:STATE_TOSHKENT = { add_claim = ROOT }
+			s:STATE_FERGANA = { add_claim = ROOT }
+			s:STATE_KHIVA = { add_claim = ROOT }
+			s:STATE_FARS = { add_claim = ROOT }
+			s:STATE_ISFAHAN = { add_claim = ROOT }
+			s:STATE_KHORASAN = { add_claim = ROOT }
+			s:STATE_HERAT = { add_claim = ROOT }
+			s:STATE_KABUL = { add_claim = ROOT }
+			s:STATE_DELHI = { add_claim = ROOT }
+			s:STATE_AGRA = { add_claim = ROOT }
+			s:STATE_PUNJAB = { add_claim = ROOT }
+			s:STATE_SINDH = { add_claim = ROOT }
+			s:STATE_GUJARAT = { add_claim = ROOT }
+			s:STATE_HYDERABAD = { add_claim = ROOT }
+			s:STATE_KASHMIR = { add_claim = ROOT }
+			s:STATE_MERZ = { add_claim = ROOT }
+			s:STATE_SYRDARYA = { add_claim = ROOT }
+			s:STATE_TAJIKISTAN = { add_claim = ROOT }
+		}
+	}
+}
+

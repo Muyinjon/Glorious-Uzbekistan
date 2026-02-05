@@ -10,7 +10,7 @@
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 4
+						levels = 1
 					}
 				}
 			}
@@ -22,7 +22,7 @@
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 3
+						levels = 2
 					}
 				}
 			}

@@ -823,4 +823,8 @@ STATE_LAKE_NICARAGUA = {
     provinces = { "x18FDFD" }
     impassable = { "x18FDFD" }
 }
+STATE_ARAL_SEA = {
+    id = 6783
+    provinces = { "x4EC8FA" }
+}
 

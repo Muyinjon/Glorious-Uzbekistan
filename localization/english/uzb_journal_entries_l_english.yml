@@ -2,17 +2,67 @@
  # Journal Entry: Revitalizing the Silk Road
  je_uzb_silicon_and_silk_road:0 "Revitalizing the Silk Road"
  je_uzb_silicon_and_silk_road_reason:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and trade. Build silk plantations in Samarqand, establish textile mills in our historic trading cities, and restore trade centers to prove Uzbekistan is the true successor to the Timurid Empire's commercial legacy."
+ je_uzb_silicon_and_silk_road_goal:0 "Reach a GDP of 10.0M"
 
- # Tooltips for completion requirements
+
  uzb_je_silicon_and_silk_road_tt_silk:0 "Build at least 8 levels of silk plantations in Samarqand"
  uzb_je_silicon_and_silk_road_tt_textile:0 "Build at least 10 levels of textile mills in Samarqand or Bukhara"
  uzb_je_silicon_and_silk_road_tt_trade:0 "Build at least 5 levels of trade centers in Samarqand"
- uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a GDP of Â£10.0M"
+ uzb_je_silicon_and_silk_road_tt_gdp:0 "Reach a GDP of 10.0M"
 
- # Progress description
- je_uzb_silicon_and_silk_road_progress:0 "Working toward a GDP of Â£10.0M"
+ je_uzb_silicon_and_silk_road_progress:0 "Working toward a GDP of 10.0M"
 
- # Journal Entry: Sart Dilemma
  je_uzbekistan_identity:0 "Sart Dilemma"
  je_uzbekistan_identity_reason:0 "Uzbekistan begins with two primary cultures, Uzbek and Tajik. The state must define itself within twenty years, resolving the Sart dilemma through Turkic primacy, Persian primacy, or a carefully mediated middle path."
  je_uzbekistan_identity_lobby:0 "Sart Dilemma"
+ je_uzb_silicon_and_silk_road_lobby:0 "Revive the ancient Silk Road through silk production, textile manufacturing, and trade."
+
+ je_uzb_ulughbek_scholars:0 "Ulughbek's Scholars"
+ je_uzb_ulughbek_scholars_reason:0 "Restore the intellectual legacy of Ulughbek by expanding universities and raising [concept_literacy]. A modern Uzbekistan must lead with knowledge."
+ je_uzb_ulughbek_scholars_lobby:0 "Restore the intellectual legacy of Ulughbek by expanding universities and raising literacy."
+ je_uzb_ulughbek_scholars_progress:0 "Working toward 25% literacy"
+ uzb_je_ulughbek_tashkent_university_tt:0 "Have a university in Tashkent"
+ uzb_je_ulughbek_samarqand_university_tt:0 "Have a university in Samarqand"
+ uzb_je_ulughbek_literacy_tt:0 "Reach [concept_literacy] of at least 25% "
+ je_uzb_ulughbek_literacy_goal:0 "Reach [concept_literacy] of at least 25% "
+
+ je_uzb_amir_temur_army:0 "Forge the Amir Temur Army"
+ je_uzb_amir_temur_army_reason:0 "Rebuild the military machine of Amir Temur. Expand barracks, secure modern arms production, and establish artillery foundries to support a professional army."
+ je_uzb_amir_temur_army_lobby:0 "Rebuild the military machine of Amir Temur through modern barracks, arms production, and artillery foundries."
+
+ je_uzb_amir_temur_babur_claims:0 "Claims of Amir Temur and Babur"
+ je_uzb_amir_temur_babur_claims_reason:0 "Unite the lands once ruled by Amir Temur and Babur across Central Asia, Persia, and India. Restoring these historic frontiers will reforge the Timurid legacy."
+ je_uzb_amir_temur_babur_claims_lobby:0 "Unite the historic lands of Amir Temur and Babur across Central Asia, Persia, and India."
+
+ # Journal Entry: Timurid Golden Era
+ je_uzb_golden_era:0 "Timurid Golden Era"
+ je_uzb_golden_era_reason:0 "Prosperity, stability, and high [concept_literacy] mark a true golden era. Reduce [concept_radical] influence and build a powerful economy worthy of the Timurid name."
+ je_uzb_golden_era_lobby:0 "Achieve prosperity, stability, and high literacy to mark a true golden era worthy of the Timurid name."
+ je_uzb_golden_era_progress:0 "Working toward a GDP of £30.0M"
+ je_uzb_golden_era_goal:0 "Reach a GDP of £30.0M"
+
+ # Journal Entry: Frontiers of the Steppe
+ je_uzb_colonial_frontiers:0 "Frontiers of the Steppe"
+ je_uzb_colonial_frontiers_reason:0 "Pursue colonial expansion to secure new markets and resources. Strengthen [concept_colony] administration and expand colonial reach beyond the traditional Uzbek heartland."
+ je_uzb_colonial_frontiers_lobby:0 "Pursue colonial expansion to secure new markets and resources beyond the traditional Uzbek heartland."
+
+ uzb_je_ulughbek_reward_tt:0 "Gain the Ulughbek's Scholars modifier"
+ uzb_je_temur_army_tt_barracks_tashkent:0 "Build at least 15 levels of barracks in Toshkent"
+ uzb_je_temur_army_tt_barracks_samarqand:0 "Build at least 10 levels of barracks in Samarqand"
+ uzb_je_temur_army_tt_barracks_bukhara:0 "Build at least 10 levels of barracks in Bukhara"
+ uzb_je_temur_army_tt_arms:0 "Build at least 5 levels of arms industries"
+ uzb_je_temur_army_tt_artillery:0 "Build at least 3 levels of artillery foundries"
+ uzb_je_temur_army_claims_reward_tt:0 "Gain claims on the historic lands of Amir Temur and Babur across Central Asia, Persia, and India."
+ uzb_je_temur_army_reward_tt:0 "Gain the Amir Temur Army modifier."
+ uzb_je_temur_babur_tt_central_asia:0 "Control the core Uzbek regions of Central Asia"
+ uzb_je_temur_babur_tt_persia:0 "Control the historic Timurid lands in Persia"
+ uzb_je_temur_babur_tt_india:0 "Control the historic Mughal lands in India"
+ uzb_je_temur_babur_reward_tt:0 "Gain the Timurid Claims modifier."
+ uzb_je_golden_era_tt_literacy:0 "Reach 40% [concept_literacy]"
+ uzb_je_golden_era_tt_radicals:0 "Keep [concept_radical] below 10%"
+ uzb_je_golden_era_tt_gdp:0 "Reach a [concept_gdp] of £20.0M"
+ uzb_je_golden_era_reward_tt:0 "Gain the Timurid Golden Era modifier."
+ uzb_je_colonial_tt_law:0 "Pass a colonial affairs law"
+ uzb_je_colonial_tt_institution:0 "Raise colonial affairs institution to level 2"
+ uzb_je_colonial_tt_colony:0 "Have at least one [concept_colony] subject"
+ uzb_je_colonial_reward_tt:0 "Gain the Colonial Frontiers modifier."

@@ -6,19 +6,19 @@
             hq_region = sr:region_central_asia
             
                 combat_unit = {
-                    type = unit_type:combat_unit_type_line_infantry
+                    type = unit_type:combat_unit_type_irregular_infantry
                     state_region = s:STATE_BUKHARA
-                    count = 6
+                    count = 8
                 }
                 combat_unit = {
                     type = unit_type:combat_unit_type_cannon_artillery
                     state_region = s:STATE_BUKHARA
-                    count = 2
+                    count = 1
                 }
                 combat_unit = {
                     type = unit_type:combat_unit_type_hussars
-                    state_region = s:STATE_BUKHARA
-                    count = 3
+                    state_region = s:STATE_SAMARQAND
+                    count = 4
                 }
                 save_scope_as = muyin_army
         }

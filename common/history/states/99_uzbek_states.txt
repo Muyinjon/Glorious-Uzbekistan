@@ -7,6 +7,7 @@
 	}
 		add_homeland = cu:uzbek
 		add_homeland = cu:tajik
+		
 	}
 
 	s:STATE_NAVOI = {
@@ -86,6 +87,7 @@
 	}
 	
 		add_homeland = cu:uzbek
+		add_homeland = cu:tajik
 	}
 
 	s:STATE_NAMANGAN = {
@@ -95,6 +97,8 @@
 		owned_provinces = { "x542efd" "x7625f5" "x8828fb" "xd767ad" "xdbd8be" "xfb192c" }
 	}
 		add_homeland = cu:uzbek
+	
+
 	}
 
 	s:STATE_KARAKALPAKSTAN = {

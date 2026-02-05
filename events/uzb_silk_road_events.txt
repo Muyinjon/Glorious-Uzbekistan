@@ -1,0 +1,108 @@
+namespace = uzb_silk_road
+
+uzb_silk_road_silk_progress = {
+	type = country_event
+	title = uzb_silk_road_silk_progress_title
+	desc = uzb_silk_road_silk_progress_desc
+
+	option = {
+		name = uzb_silk_road_progress_ok
+	}
+}
+
+uzb_silk_road_textile_progress = {
+	type = country_event
+	title = uzb_silk_road_textile_progress_title
+	desc = uzb_silk_road_textile_progress_desc
+
+	option = {
+		name = uzb_silk_road_progress_ok
+	}
+}
+
+uzb_silk_road_trade_progress = {
+	type = country_event
+	title = uzb_silk_road_trade_progress_title
+	desc = uzb_silk_road_trade_progress_desc
+
+	option = {
+		name = uzb_silk_road_progress_ok
+	}
+}
+
+uzb_silk_road_complete = {
+	type = country_event
+	title = uzb_silk_road_complete_title
+	desc = uzb_silk_road_complete_desc
+	
+	immediate = {
+		s:STATE_SAMARQAND = {
+			save_scope_as = samarqand_state
+		}
+	}
+	
+	option = {
+		name = uzb_silk_road_complete_option_commercial
+		# Focus on trade and commerce
+		add_modifier = {
+			name = uzb_modifier_pride_of_the_east
+			days = -1
+		}
+		trigger_event = uzb_silk_road_complete_followup.1
+	}
+	
+	option = {
+		name = uzb_silk_road_complete_option_industrial
+		# Focus on industrial production
+		add_modifier = {
+			name = uzb_modifier_pride_of_the_east
+			days = -1
+		}
+		trigger_event = uzb_silk_road_complete_followup.2
+	}
+	
+	option = {
+		name = uzb_silk_road_complete_option_cultural
+		# Focus on cultural prestige
+		add_modifier = {
+			name = uzb_modifier_pride_of_the_east
+			days = -1
+		}
+		add_modifier = {
+			name = uzb_modifier_silk_road_cultural_legacy
+			days = -1
+		}
+		trigger_event = uzb_silk_road_complete_followup.3
+	}
+}
+
+# Follow-up events based on choice
+uzb_silk_road_complete_followup.1 = {
+	type = country_event
+	title = uzb_silk_road_followup_commercial_title
+	desc = uzb_silk_road_followup_commercial_desc
+	
+	option = {
+		name = uzb_silk_road_followup_ok
+	}
+}
+
+uzb_silk_road_complete_followup.2 = {
+	type = country_event
+	title = uzb_silk_road_followup_industrial_title
+	desc = uzb_silk_road_followup_industrial_desc
+	
+	option = {
+		name = uzb_silk_road_followup_ok
+	}
+}
+
+uzb_silk_road_complete_followup.3 = {
+	type = country_event
+	title = uzb_silk_road_followup_cultural_title
+	desc = uzb_silk_road_followup_cultural_desc
+	
+	option = {
+		name = uzb_silk_road_followup_ok
+	}
+}

@@ -1,0 +1,56 @@
+je_uzb_ulughbek_scholars = {
+	should_be_pinned_by_default = no
+	icon = "gfx/interface/icons/generic_icons/innovation.dds"
+	group = je_group_technology
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = { c:UZB ?= THIS }
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+
+	complete = {
+		
+		any_scope_state = {
+			state_region = s:STATE_TOSHKENT
+			has_building = building_university
+		}
+		
+		
+		any_scope_state = {
+			state_region = s:STATE_SAMARQAND
+			has_building = building_university
+		}
+		
+
+		literacy_rate >= 0.25
+		
+	}
+
+	current_value = {
+		value = literacy_rate
+		multiply = 100
+	}
+
+	goal_add_value = {
+		value = 25
+		subtract = {
+			value = literacy_rate
+			multiply = 100
+		}
+	}
+
+	progressbar = yes
+
+	on_complete = {
+		show_as_tooltip = {
+			custom_tooltip = uzb_je_ulughbek_reward_tt
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = uzb_journal_rewards.1
+				popup = yes
+			}
+		}
+	}
+
+}

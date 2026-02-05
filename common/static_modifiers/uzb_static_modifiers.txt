@@ -1,0 +1,122 @@
+uzb_modifier_base_bureaucracy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_bureaucracy_add = 200
+}
+uzb_modifier_pride_of_the_east = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult  = 0.15
+	country_tech_spread_mult = 0.10
+    country_tech_research_speed_mult = 0.12
+    country_mass_migration_attraction_mult = 0.5
+	state_trade_advantage_mult = 0.10
+}
+
+uzb_modifier_ulughbek_scholars = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.05
+	country_tech_spread_mult = 0.15
+	country_tech_research_speed_mult = 0.15
+	country_weekly_innovation_mult = 0.10
+} 
+
+uzb_modifier_temur_army = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.10
+	country_tech_spread_mult = 0.05
+	military_formation_movement_speed_mult = 0.10
+	military_formation_organization_gain_mult = 0.05
+	unit_morale_recovery_mult = 0.10
+}
+
+uzb_modifier_timurid_claims = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.15
+	military_formation_organization_gain_mult = 0.05
+	country_prestige_mult = 0.10
+}
+
+uzb_modifier_golden_era = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.25
+	country_mass_migration_attraction_mult = 0.50
+	country_weekly_innovation_mult  = 0.10
+	state_literacy_rate_add = 0.10
+	state_literacy_cost_mult = -0.10
+	state_turmoil_effects_mult = -0.10
+}
+
+uzb_modifier_colonial_frontiers = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.08
+	country_mass_migration_attraction_mult = 0.20
+	state_colony_growth_speed_mult = 2
+	country_authority_mult = 0.05
+	building_group_bg_manufacturing_unincorporated_throughput_add = 0.2
+	building_group_bg_plantations_unincorporated_throughput_add = 0.2
+	building_group_bg_rubber_unincorporated_throughput_add = 0.2
+	building_group_bg_logging_unincorporated_throughput_add = 0.2
+	building_group_bg_mining_unincorporated_throughput_add = 0.2
+	state_unincorporated_starting_wages_mult = -0.10
+	state_colony_growth_creation_factor = 0.8
+
+}
+
+uzb_modifier_silk_road_cultural_legacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.20
+	country_mass_migration_attraction_mult = 0.30
+	state_trade_capacity_mult = 0.15
+	state_trade_advantage_mult = 0.10
+	building_trade_center_throughput_add = 0.5
+}
+
+uzb_modifier_identity_crisis = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_authority_mult = -0.15
+	state_tax_capacity_mult = -0.10
+}
+
+uzb_modifier_uzbek_primacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	unit_army_offense_mult  = 0.15
+	unit_army_defense_mult = 0.15
+}
+
+uzb_modifier_tajik_primacy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.20
+	country_weekly_innovation_mult = 0.20
+}
+
+uzb_modifier_middle_path = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_pop_support_movement_radical_mult  = -0.20
+	country_mass_migration_attraction_mult = 0.10
+	state_loyalists_from_political_movements_mult = 0.15
+}
+
+uzb_modifier_bazaar_mediation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_bureaucracy_add = -50
+}
+
+uzb_modifier_jadid_turkic = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.10
+	country_tech_spread_mult = 0.05
+}
+
+uzb_modifier_jadid_persian = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult = 0.15
+	interest_group_ig_intelligentsia_pop_attraction_mult  = 0.10
+}
+
+uzb_modifier_jadid_bilingual = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	state_education_access_add = 0.05
+	state_turmoil_effects_mult = -0.10
+	state_loyalists_from_political_movements_mult = 0.15
+
+}
+

@@ -15,8 +15,9 @@ BUILDINGS = {
 				}
 			}
 		
+
 			create_building = {
-				building = "building_cotton_plantation"
+				building = "building_livestock_ranch"
 				reserves = 1
 				activate_production_methods = { }
 				add_ownership = {
@@ -25,11 +26,6 @@ BUILDINGS = {
 						levels = 1
 					}
 				}
-			}
-			create_building = {
-				building = "building_livestock_ranch"
-				reserves = 1
-				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_silk_plantation"
@@ -41,6 +37,18 @@ BUILDINGS = {
 						levels = 1
 					}
 				}
-			}}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				reserves = 1
+				activate_production_methods = { }
+				add_ownership = {
+					country = {
+						country = c:UZB
+						levels = 1
+					}
+				}
+		
+		}
 	}
-}
+}}

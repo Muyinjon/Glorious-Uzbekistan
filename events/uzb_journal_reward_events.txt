@@ -1,0 +1,86 @@
+namespace = uzb_journal_rewards
+
+uzb_journal_rewards.1 = {
+	type = country_event
+	title = uzb_journal_rewards.1.t
+	desc = uzb_journal_rewards.1.d
+
+	option = {
+		name = uzb_journal_rewards.1.a
+		add_modifier = {
+			name = uzb_modifier_ulughbek_scholars
+			days = -1
+		}
+	}
+}
+
+uzb_journal_rewards.2 = {
+	type = country_event
+	title = uzb_journal_rewards.2.t
+	desc = uzb_journal_rewards.2.d
+
+	option = {
+		name = uzb_journal_rewards.2.a
+		add_modifier = {
+			name = uzb_modifier_temur_army
+			days = -1
+		}
+	}
+}
+
+uzb_journal_rewards.3 = {
+	type = country_event
+	title = uzb_journal_rewards.3.t
+	desc = uzb_journal_rewards.3.d
+
+	option = {
+		name = uzb_journal_rewards.3.a
+		add_modifier = {
+			name = uzb_modifier_timurid_claims
+			days = -1
+		}
+	}
+}
+
+uzb_journal_rewards.4 = {
+	type = country_event
+	title = uzb_journal_rewards.4.t
+	desc = uzb_journal_rewards.4.d
+
+	option = {
+		name = uzb_journal_rewards.4.a
+		add_modifier = {
+			name = uzb_modifier_golden_era
+			days = -1
+		}
+	}
+}
+
+uzb_journal_rewards.5 = {
+	type = country_event
+	title = uzb_journal_rewards.5.t
+	desc = uzb_journal_rewards.5.d
+
+	option = {
+		name = uzb_journal_rewards.5.a
+		add_modifier = {
+			name = uzb_modifier_colonial_frontiers
+			days = -1
+		}
+	}
+}
+
+uzb_journal_rewards.6 = {
+	type = country_event
+	placement = root
+	title = uzb_journal_rewards.6.t
+	desc = uzb_journal_rewards.6.d
+
+	option = {
+		name = uzb_journal_rewards.6.a
+		add_modifier = {
+			name = uzb_modifier_temur_army
+			days = -1
+		}
+	}
+}

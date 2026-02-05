@@ -9,22 +9,20 @@
 						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled"  }
+				reserves=1 }
+		
 			
-			}
 			create_building={
 				building="building_livestock_ranch"
 				add_ownership = {
 					country = {
 						country = c:UZB
 						levels = 1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_open_air_stockyards" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated"  }
+					}}
+				
+				reserves=1 }
 			
-			}
+			
 			create_building={
 				building="building_opium_plantation"
 				add_ownership = {
@@ -33,19 +31,16 @@
 						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts"  }
+				reserves=1 }
 			
-			}
+			
 			create_building={
 				building="building_barrack"
 				add_ownership = {
 					country = { country = c:UZB levels = 2 }
 				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				reserves=1 }
 			
-			}
+			
 		}
-	}
-}
+	}}

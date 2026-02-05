@@ -1,0 +1,55 @@
+je_uzb_amir_temur_babur_claims = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/outliner/war_button_icon.dds"
+	group = je_group_foreign_affairs
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = {
+		c:UZB ?= THIS
+		has_variable = uzb_temur_claims_unlocked
+	}
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+	possible = { has_variable = uzb_temur_claims_unlocked }
+
+	complete = {
+		custom_tooltip = {
+			text = uzb_je_temur_babur_tt_central_asia
+			owns_entire_state_region = STATE_SAMARQAND
+			owns_entire_state_region = STATE_BUKHARA
+			owns_entire_state_region = STATE_TOSHKENT
+			owns_entire_state_region = STATE_FERGANA
+			owns_entire_state_region = STATE_KHIVA
+		}
+		custom_tooltip = {
+			text = uzb_je_temur_babur_tt_persia
+			owns_entire_state_region = STATE_FARS
+			owns_entire_state_region = STATE_ISFAHAN
+			owns_entire_state_region = STATE_KHORASAN
+			owns_entire_state_region = STATE_HERAT
+			owns_entire_state_region = STATE_KABUL
+		}
+		custom_tooltip = {
+			text = uzb_je_temur_babur_tt_india
+			owns_entire_state_region = STATE_DELHI
+			owns_entire_state_region = STATE_AGRA
+			owns_entire_state_region = STATE_PUNJAB
+			owns_entire_state_region = STATE_SINDH
+			owns_entire_state_region = STATE_GUJARAT
+			owns_entire_state_region = STATE_HYDERABAD
+			owns_entire_state_region = STATE_KASHMIR
+		}
+	}
+
+	on_complete = {
+		show_as_tooltip = {
+			custom_tooltip = uzb_je_temur_babur_reward_tt
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = uzb_journal_rewards.3
+				popup = no
+			}
+		}
+	}
+}

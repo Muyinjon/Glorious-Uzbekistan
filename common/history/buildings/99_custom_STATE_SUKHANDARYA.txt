@@ -49,7 +49,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 5
+						levels = 2
 					}
 				}
 			}
@@ -60,7 +60,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 3
+						levels = 1
 					}
 				}
 			}
@@ -71,7 +71,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = c:UZB
-						levels = 5
+						levels = 1
 					}
 				}
 			}}

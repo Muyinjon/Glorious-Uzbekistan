@@ -24,7 +24,8 @@ BUILDINGS = {
 					}
 				}
 			}
-		create_building = {
-		}}
+			
+		}
 	}
 
+}

@@ -3,7 +3,7 @@ STATE_SAMARQAND = {
     id = 99900
     provinces = { "xd87ebf" "x8de506" "xf5ef8a" "xd056dc" "x417f81" "xed1489" "x8b8972" }
     subsistence_building = "building_subsistence_farm"
-	city = "xd056dc"
+	city = "xd87ebf"
 	farm = "x8de506"
 	mine = "x8b8972"
 	wood = "xed1489"
@@ -211,6 +211,7 @@ STATE_ANDIJAN = {
 STATE_NAMANGAN = {
     id = 99908
     provinces = { "x542efd" "xfb192c" "x7625f5" "x8828fb" "xd767ad" "xdbd8be" }
+	traits = { "state_trait_fergana_valley" }
     subsistence_building = "building_subsistence_orchard"
 	city = "x7625f5"
 	farm = "xfb192c"
@@ -239,11 +240,13 @@ STATE_KARAKALPAKSTAN = {
     id = 99909
     provinces = { "x18c7c6" "x2cdb86" "x0a3f4d" "x665341" "xb22914" "x891e67" "xf1c7f1" "xee0054" "xf99813" "x9cf8bd" "xa63dc7" "x994df0" "xc19656" "xdb89a8" "x03630a" "x415040" "x956de6" "x9b6910" "x9fb105" "x52a7bd" "x60d60f" "x9c7154" "xff1b6d" "x735e95" "x5e72d3" "x2c7b0c" "x7aaa53" "x85804e" "x1c2fb8" "x4905d7" "x5743dd" "xaca7fd" "x57585a" "xc6fc10" "xea2f67" "x6e3fff" "x28c6d1" }
     subsistence_building = building_subsistence_fishing_village
-	city = "x18c7c6"
+	city = "x85804e"
 	farm = "x2cdb86"
 	mine = "x0a3f4d"
 	wood = "x665341"
-	port = "xb22914"
+	port = "x03630a"
+	naval_exit_id = 6783
+
     arable_land = 25
     traits = { "state_trait_aral_sea" }
     arable_resources = { "building_cotton_plantation" "building_dye_plantation" "building_livestock_ranch" "building_silk_plantation" "building_wheat_farm" }
@@ -279,3 +282,4 @@ STATE_FERGANA = {
         building_logging_camp = 5
     }
 }
+

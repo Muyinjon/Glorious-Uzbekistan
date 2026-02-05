@@ -1,0 +1,109 @@
+je_uzb_silicon_and_silk_road = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/goods_icons/prestige_goods/suzhou_silk_prestige.dds"
+	group = je_group_objectives
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = { c:UZB ?= THIS }
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+	immediate = {
+		if = {
+			limit = { NOT = { has_variable = uzb_silk_road_silk_progress } }
+			set_variable = { name = uzb_silk_road_silk_progress value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = uzb_silk_road_textile_progress } }
+			set_variable = { name = uzb_silk_road_textile_progress value = 0 }
+		}
+		if = {
+			limit = { NOT = { has_variable = uzb_silk_road_trade_progress } }
+			set_variable = { name = uzb_silk_road_trade_progress value = 0 }
+		}
+	}
+
+
+	complete = {
+		# Silk plantations in Samarqand (historic Silk Road hub)
+
+		country_has_building_type_levels = {
+			target = bt:building_silk_plantation
+			value >= 8
+		}
+		
+	
+		# Textile mills (processing silk and cotton into textiles)
+		country_has_building_type_levels = {
+			target = bt:building_textile_mill
+			value >= 8
+		}
+	
+		# GDP requirement
+		gdp >= 10000000
+	}
+	
+
+	is_progressing = {
+		OR = {
+			any_scope_building = {
+				is_building_type = building_silk_plantation
+				is_under_construction = yes
+			}
+			any_scope_building = {
+				is_building_type = building_textile_mill
+				is_under_construction = yes
+			}
+			gdp >= 5000000
+		}
+	}
+
+	current_value = {
+		value = gdp
+	}
+
+	goal_add_value = {
+		value = 10000000
+		subtract = gdp
+	}
+
+	progressbar = yes
+	
+
+	on_monthly_pulse = {
+		effect = {
+			# Check silk plantation progress in Samarqand
+			if = {
+				limit = {
+					country_has_building_type_levels = {
+						target = building_silk_plantation
+						value >= 10
+					}
+					NOT = { has_variable = uzb_silk_milestone }
+				}
+				set_variable = uzb_silk_milestone
+				trigger_event = { id = uzb_silk_road_silk_progress }
+			}
+		
+			# Check textile mill progress
+			if = {
+				limit = {
+					country_has_building_type_levels = {
+						target = building_textile_mill
+						value >= 10
+					}
+					NOT = { has_variable = uzb_textile_milestone }
+				}
+				set_variable = uzb_textile_milestone
+				trigger_event = { id = uzb_silk_road_textile_progress }
+			}
+		
+			
+		}
+	}
+	
+	on_complete = {
+		hidden_effect = {
+			trigger_event = { id = uzb_silk_road_complete popup = yes}
+		}
+	}
+}

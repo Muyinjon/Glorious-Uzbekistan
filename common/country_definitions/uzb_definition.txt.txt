@@ -1,7 +1,7 @@
 ﻿UZB = {
 	color = { 129 193 241 }
 
-	country_type = recognized
+	country_type = unrecognized
 
 	tier = grand_principality
 

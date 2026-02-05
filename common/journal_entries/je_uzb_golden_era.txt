@@ -1,0 +1,43 @@
+je_uzb_golden_era = {
+	should_be_pinned_by_default = yes
+	icon = "gfx/interface/icons/goods_icons/prestige_goods/como_silk_prestige.dds"
+	group = je_group_technology
+
+	is_shown_in_lobby = { c:UZB ?= THIS }
+	is_shown_when_inactive = { c:UZB ?= THIS }
+
+	invalid = { NOT = { c:UZB ?= THIS } }
+
+	complete = {
+		radical_fraction = {
+			value < 0.10
+		}
+		gdp >= 30000000
+		country_has_building_type_levels = {
+			target = bt:building_university
+			value >= 2
+		}
+	}
+	current_value = {
+		value = gdp
+	}
+
+	goal_add_value = {
+		value = 30000000
+		subtract = gdp
+	}
+
+	progressbar = yes
+
+	on_complete = {
+		show_as_tooltip = {
+			custom_tooltip = uzb_je_golden_era_reward_tt
+		}
+		hidden_effect = {
+			trigger_event = {
+				id = uzb_journal_rewards.4
+				popup = no
+			}
+		}
+	}
+}
